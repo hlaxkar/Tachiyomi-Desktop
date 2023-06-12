@@ -6,10 +6,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+
+        accent: "#acc9ff",
         clifford: "#da373d",
         dark_bg: "#1a1a1a",
         third_bg: "#222222",
-        prime_text: "#FFEFE2",
+        prime_text: "#c9c8ce",
         second_text: "#FCF3fd",
         second_bg: "#282828",
         white_bg: "#fafafa",

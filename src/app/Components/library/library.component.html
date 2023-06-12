@@ -1,23 +1,31 @@
-<main class="">
-    <div class="text-[#c9c8ce] main-header h-[60px] p-4 flex justify-between items-center"><h1 class="text-3xl">Library</h1>
-    <div>
-
-      <button>S</button>
-      <button>F</button>
-      <button>O</button>
+<main class="relative">
+  <div
+    class="main-header z-10 w-screen bg-dark_bg text-prime_text flex flex-col fixed top-0 left-0"
+  >
+    <div class="flex h-[60px] justify-between p-4">
+      <h1 class="text-3xl">Library</h1>
+      <div>
+        <button>S</button>
+        <button>F</button>
+        <button>O</button>
+      </div>
     </div>
-    </div>
-    <div class="category border-b p-4">
+    <div class="category border-b p-4 bg-dark_bg bg-">
       <ul class="flex gap-3">
-        <li class="cat-tab text-blue-300 border-b-2 border-blue-300">Default</li>
+        <li class="cat-tab text-blue-300 border-b-2 border-blue-300">
+          Default
+        </li>
         <li class="cat-tab">Local</li>
         <li class="cat-tab">Action</li>
       </ul>
     </div>
-    <div class="library-container p-2 relative">
-      <ul class="flex flex-wrap justify-evenly gap-4">
-        
-        <app-manga-cover *ngFor="let manga of data; index as i" [mangaData]='manga'></app-manga-cover>
-      </ul>
-    </div>
-  </main>
+  </div>
+  <div class="library-container p-2 relative mt-[100px]">
+    <ul class="flex flex-wrap justify-evenly gap-4">
+      <app-manga-cover
+        *ngFor="let manga of data; index as i"
+        [mangaData]="manga"
+      ></app-manga-cover>
+    </ul>
+  </div>
+</main>
