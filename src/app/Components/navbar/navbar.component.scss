@@ -1,0 +1,25 @@
+.navlinks{
+    width: 100%;
+    height: 100%;
+
+}
+
+    @media (min-width:768px) {
+        .main{
+        padding-left: max(100px,9%);
+
+        nav{
+            width: max(100px,9%);
+        }
+    }
+}
+.navlinks>li{
+    cursor: pointer;
+    transition: all;
+}
+.navlinks>li:hover{
+    background-color: #00419d;transition: all;
+}
+.nav-icon{
+    height: 40px;
+}

@@ -1,0 +1,20 @@
+.cat-tab{
+    padding: 5px;
+
+    cursor: pointer;
+}
+.cat-tab:hover{
+    color: #acc9ff;
+    border-bottom: 2px solid #acc9ff;
+}
+.cover-container{
+    width: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+
+}
+.cover-title{
+    position: absolute;
+    bottom: 5px;
+}
