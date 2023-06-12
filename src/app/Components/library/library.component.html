@@ -1,4 +1,4 @@
-<main class="main h-full w-full pb-[80px] md:pb-0">
+<main class="">
     <div class="text-[#c9c8ce] main-header h-[60px] p-4 flex justify-between items-center"><h1 class="text-3xl">Library</h1>
     <div>
 
@@ -16,24 +16,8 @@
     </div>
     <div class="library-container p-2 relative">
       <ul class="flex flex-wrap justify-evenly gap-4">
-        <li class="cover-container">
-          <div class="cover-title">Masamune kun no revenge</div>
-          <img src="src\assets\static\One.jpg" alt="" class="cover-image" />
-        </li>
-        <li class="cover-container">
-          <div class="cover-title">Kanojo, Okarishimasu</div>
-          <img src="src/assets/static/Kanojo.jpg" alt="" class="cover-image" />
-        </li>
-        <li class="cover-container">
-          <div class="cover-title">Horimiya</div>
-          <img src="src/assets/static/Horimiya.jpg" alt="" class="cover-image" />
-        </li>
-        <li class="cover-container">
-          <div class="cover-title">
-            Gokushufudou: The Way of the House Husband
-          </div>
-          <img src="src/assets/static/Goku.jpg" alt="" class="cover-image" />
-        </li>
+        
+        <app-manga-cover *ngFor="let manga of data; index as i" [mangaData]='manga'></app-manga-cover>
       </ul>
     </div>
   </main>

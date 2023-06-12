@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './Components/navbar/navbar.component';
 import { NavlinksComponent } from './Components/navbar/navlinks/navlinks.component';
 import { LibraryComponent } from './Components/library/library.component';
+import { MangaCoverComponent } from './Components/manga-cover/manga-cover.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     NavlinksComponent,
-    LibraryComponent
+    LibraryComponent,
+    MangaCoverComponent
   ],
   imports: [
     BrowserModule,
