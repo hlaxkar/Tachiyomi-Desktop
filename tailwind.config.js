@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-navbar_color:"#262930",
+        navbar_color:"#262930",
         accent: "#acc9ff",
         clifford: "#da373d",
         dark_bg: "#1a1a1a",

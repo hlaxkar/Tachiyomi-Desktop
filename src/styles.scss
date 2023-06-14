@@ -2,7 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body::-webkit-scrollbar {
+    display: none;
+  }
 $accent: #acc9ff;
 $dark_bg:#1a1a1a;
 $navbar_color: #262930;
+
+body{
+    transition: 0.5s ease-in;
+}

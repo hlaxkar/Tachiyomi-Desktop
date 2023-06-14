@@ -1,0 +1,32 @@
+@import '../../../styles.scss';
+
+.selected{
+    color: $accent;
+    border-bottom: 2px solid $accent;
+}
+.cat-tab{
+    padding: 5px;
+
+    cursor: pointer;
+}
+.cat-tab:hover{
+    color: $accent;
+    border-bottom: 2px solid $accent;
+}
+.cover-container{
+    width: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+
+}
+.cover-title{
+    position: absolute;
+    bottom: 5px;
+}
+.main-header{
+    @media (min-width:768px) {
+        margin-left: max(9%,100px);
+        
+    }
+}
