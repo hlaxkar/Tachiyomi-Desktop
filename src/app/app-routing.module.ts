@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import {BrowseComponent} from '../app/Components/browse/browse.component'
 import { LibraryComponent } from './Components/library/library.component';
+import { SearchPageComponent } from './Components/search-page/search-page.component';
 
 
 const routes: Routes = [
@@ -11,6 +12,9 @@ const routes: Routes = [
   },
   {
     path:'browse', component: BrowseComponent
+  },
+  {
+    path:'search/:source', component:SearchPageComponent
   }
 ];
 

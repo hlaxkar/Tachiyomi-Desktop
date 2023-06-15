@@ -20,14 +20,18 @@ class="main-header z-10 w-screen bg-dark_bg text-prime_text flex flex-col fixed 
 </div>
 </div>
 
-<div class="list-area p-2 relative mt-[140px]">
-    <section>
-        <h1 class="text-accent">Last used</h1>
+<div class="list-area p-2 relative mt-[140px]" >
+    <section *ngFor="let section of extensions; index as i">
+        <h1 class="text-gray-300 pb-5">{{section.language}}</h1>
+        <ul class="flex flex-col gap-5" >
+          <li class="h-10 gap-4 flex items-center justify-between" *ngFor="let item of section.extensionList; index as i">
+          <img src="../../../assets/static/Mangadex-icon.jpeg" alt="" class="h-full rounded-s">
+          <span class="w-full "><div>{{item}}</div><div class="text-sm pt-1">{{section.language}}</div></span>
+          <button class="text-accent hover:opacity-60 transition-all" [routerLink]="['/search', '{{item}}']">Latest</button>
+          <span>Pin</span>
+          </li>
+          
+        </ul>
     </section>
-    <section>
-        <h1>Multi</h1>
-    </section>
-    <section>
-        <h1>English</h1>
-    </section>
+    
 </div>
