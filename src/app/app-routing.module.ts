@@ -14,7 +14,7 @@ const routes: Routes = [
     path:'browse', component: BrowseComponent
   },
   {
-    path:'search/:source', component:SearchPageComponent
+    path:'search', component:SearchPageComponent
   }
 ];
 

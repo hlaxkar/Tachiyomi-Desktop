@@ -12,3 +12,41 @@ $navbar_color: #262930;
 body{
     transition: 0.5s ease-in;
 }
+
+.main-header{
+  width: 100%;
+  @media (min-width:768px) {
+    
+    width: min(calc(100% - 100px),90%);
+  }
+}
+
+.cat-tab{
+    padding: 5px;
+
+    cursor: pointer;
+}
+.cat-tab:hover{
+    color: $accent;
+    border-bottom: 2px solid $accent;
+}
+.cover-container{
+    width: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+
+}
+.cover-title{
+    position: absolute;
+    bottom: 5px;
+}
+.main-header{
+    @media (min-width:768px) {
+        margin-left: max(9%,100px);
+        
+    }
+}
+.list-area>section{
+    padding: 20px 0;
+}

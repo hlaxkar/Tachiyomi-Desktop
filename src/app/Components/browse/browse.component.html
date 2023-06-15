@@ -27,7 +27,7 @@ class="main-header z-10 w-screen bg-dark_bg text-prime_text flex flex-col fixed 
           <li class="h-10 gap-4 flex items-center justify-between" *ngFor="let item of section.extensionList; index as i">
           <img src="../../../assets/static/Mangadex-icon.jpeg" alt="" class="h-full rounded-s">
           <span class="w-full "><div>{{item}}</div><div class="text-sm pt-1">{{section.language}}</div></span>
-          <button class="text-accent hover:opacity-60 transition-all" [routerLink]="['/search', '{{item}}']">Latest</button>
+          <button class="text-accent hover:opacity-60 transition-all" routerLink="/search">Latest</button>
           <span>Pin</span>
           </li>
           

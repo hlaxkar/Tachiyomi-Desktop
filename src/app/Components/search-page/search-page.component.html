@@ -1,1 +1,30 @@
-<p>search-page works!</p>
+<div
+  class="main-header z-10 bg-dark_bg text-prime_text flex flex-col fixed top-0 left-0"
+>
+  <div class="flex h-[60px] justify-between p-4">
+    <h1 class="text-3xl">MangaDex</h1>
+    <div class="flex gap-3">
+        <input type="text" class="bg-navbar_color rounded text-gray-300">
+      <button><i class="fas fa-search"></i></button>
+     
+    </div>
+  </div>
+
+
+
+  <div class="category border-b p-4 bg-dark_bg">
+    <ul class="flex gap-3 justify-evenly">
+      <button class="bg-accent text-dark_bg">Popular</button>
+      <button>Latest</button>
+      <button>Filter</button>
+    </ul>
+  </div>
+</div>
+
+<div class="container flex flex-wrap justify-evenly gap-2 p-2 relative mt-[140px]">
+    <app-manga-cover
+    *ngFor="let manga of data; index as i"
+    [mangaData]="manga"
+    class="w-[150px]"
+  ></app-manga-cover>
+</div>

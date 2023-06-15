@@ -10,7 +10,7 @@
         <button>O</button>
       </div>
     </div>
-    <div class="category border-b p-4 bg-dark_bg bg-">
+    <div class="category border-b p-4 bg-dark_bg">
       <ul class="flex gap-3">
         <li class="cat-tab text-blue-300 border-b-2 border-blue-300">
           Default
@@ -25,6 +25,7 @@
       <app-manga-cover
         *ngFor="let manga of data; index as i"
         [mangaData]="manga"
+        class="w-[200px]"
       ></app-manga-cover>
     </ul>
   </div>
