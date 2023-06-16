@@ -10,6 +10,8 @@ import { MangaCoverComponent } from './Components/manga-cover/manga-cover.compon
 import { MangaDetailsComponent } from './Components/manga-details/manga-details.component';
 import { SearchPageComponent } from './Components/search-page/search-page.component';
 import { BrowseComponent } from './Components/browse/browse.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,7 @@ import { BrowseComponent } from './Components/browse/browse.component';
   ],
   imports: [
     BrowserModule,
-   
+    HttpClientModule,
     RouterModule,
     AppRoutingModule
   ],

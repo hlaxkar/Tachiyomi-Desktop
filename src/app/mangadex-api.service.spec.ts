@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { MangadexApiService } from './mangadex-api.service';
+import { MangadexApiService } from './Services/mangadex-api.service';
 
 describe('MangadexApiService', () => {
   let service: MangadexApiService;

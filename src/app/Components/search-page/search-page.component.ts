@@ -1,11 +1,17 @@
 import { Component } from '@angular/core';
-
+import { MangadexApiService } from 'src/app/Services/mangadex-api.service';
+import { MangaModel } from 'src/app/Models/mangadex-manga.model';
 @Component({
   selector: 'app-search-page',
   templateUrl: './search-page.component.html',
   styleUrls: ['./search-page.component.scss']
 })
 export class SearchPageComponent {
+
+
+
+  constructor(private mangadexApiService:MangadexApiService){
+  }
   data: any = [
     {
       title: 'Masamune kun no revsenge',
@@ -55,7 +61,17 @@ export class SearchPageComponent {
       cover: 'Goku.jpg',
     },
   ];
-
+  
   searchOpen:boolean = false;
+
+  getmanga(title:string, order="desc"){
+
+    this.mangadexApiService.searchManga(title, order).subscribe((data:any)=>{
+      console.log(data);
+      
+      let searchResults:MangaModel=data;
+    })
+  }
+  
 
 }
