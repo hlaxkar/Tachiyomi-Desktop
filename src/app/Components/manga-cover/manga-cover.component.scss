@@ -1,6 +1,7 @@
 .cover-container{
     width: 100%;
-    // overflow: hidden;
+    overflow: hidden;
+    aspect-ratio: 0.7;
     cursor: pointer;
     position: relative;
 
@@ -8,6 +9,9 @@
 .cover-title{
     position: absolute;
     left: 0;
+    bottom: 0;
+    color: black;
+    
     // z-index: 100;
    
 }
