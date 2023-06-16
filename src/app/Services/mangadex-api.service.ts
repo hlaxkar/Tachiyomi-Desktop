@@ -11,7 +11,7 @@ export class MangadexApiService {
  
   constructor(private http: HttpClient) {}
 
-  searchManga(title?: string, includedTagsMode?: string, excludedTagsMode?: string, contentRatings?: string[], order?: string): Observable<any> {
+  searchManga(title?: string,order?: string, includedTagsMode?: string, excludedTagsMode?: string, contentRatings?: string[]): Observable<any> {
     let url = `https://api.mangadex.org/manga?`;
 
     if (title) {
