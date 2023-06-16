@@ -1,11 +1,11 @@
 <div
   class="main-header z-10 bg-dark_bg text-prime_text flex flex-col fixed top-0 left-0"
 >
-  <div class="flex h-[60px] justify-between p-4">
-    <h1 class="text-3xl">MangaDex</h1>
-    <div class="flex gap-3">
-        <input type="text" class="bg-navbar_color rounded text-gray-300">
-      <button><i class="fas fa-search"></i></button>
+  <div class="flex items-center h-[60px] gap-3 justify-between p-4">
+    <h1 class="text-3xl transition-all" [ngClass]="{'hidden':searchOpen}">MangaDex</h1>
+    <div class="flex gap-3 w-full transition-all">
+        <input type="text" [ngClass]="{'hidden':!searchOpen}" placeholder="Search..." class="w-full bg-dark_bg  rounded text-gray-300 transition-all h-9">
+      <button class="float-right" [ngClass]="{'hidden':searchOpen}"><i class="fas fa-search"></i></button>
      
     </div>
   </div>
@@ -14,7 +14,7 @@
 
   <div class="category border-b p-4 bg-dark_bg">
     <ul class="flex gap-3 justify-evenly">
-      <button class="bg-accent text-dark_bg">Popular</button>
+      <button class="bg-accent px-2 py-1 rounded-sm text-dark_bg" (click)="searchOpen=!searchOpen">Popular</button>
       <button>Latest</button>
       <button>Filter</button>
     </ul>

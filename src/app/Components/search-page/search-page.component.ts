@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class SearchPageComponent {
   data: any = [
     {
-      title: 'Masamune kun no revenge',
+      title: 'Masamune kun no revsenge',
       cover: 'One.jpg',
     },
     {
@@ -55,5 +55,7 @@ export class SearchPageComponent {
       cover: 'Goku.jpg',
     },
   ];
+
+  searchOpen:boolean = false;
 
 }
