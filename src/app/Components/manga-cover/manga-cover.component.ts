@@ -8,15 +8,15 @@ import { MangadexApiService } from 'src/app/Services/mangadex-api.service';
 export class MangaCoverComponent {
 @Input() mangaData:any
 cover:any = '../../../assets/static/One.jpg';
-constructor(private mangadex:MangadexApiService){
-if(this.mangaData.cover){
-  console.log(this.mangaData.cover);
-  
-  this.mangadex.getCover(this.mangaData.id,this.mangaData.cover, this.mangaData.res).subscribe(
-    data=>{
-this.cover=data
-    }
-  )
+ngOnInit(){
+console.log(this.mangaData);
+
+  this.cover = 'https://uploads.mangadex.org/covers/'+this.mangaData.id+'/'+this.mangaData.cover+'.256.jpg';
+console.log(this.cover);
+
 }
-}
+
+ 
+
+
 }

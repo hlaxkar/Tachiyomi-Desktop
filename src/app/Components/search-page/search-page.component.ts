@@ -15,7 +15,14 @@ sampledata:any
   constructor(private mangadexApiService:MangadexApiService){
 
     this.sampledata = sampleData.data.map(data=>{
-      
+      let cover:any
+      data.relationships.forEach(
+        (data)=>{
+          if(data.type=='cover_art'){
+           cover =  data.attributes?.fileName
+          }
+        }
+      )
       // (rel=>{
       //   if (rel.type=='cover_art'){
       //     return rel.attributes?.fileName
@@ -28,55 +35,6 @@ sampledata:any
     }
     })
   }
-  data: any = [
-    {
-      title: 'Masamune kun no revsenge',
-      cover: 'One.jpg',
-    },
-    {
-      title: 'Kanojo, Okarishimasu',
-      cover: 'Kanojo.jpg',
-    },
-    {
-      title: 'Horimiya',
-      cover: 'Horimiya.jpg',
-    },
-    {
-      title: 'Gokushufudou: The Way of the House Husband',
-      cover: 'Goku.jpg',
-    },
-    {
-      title: 'Masamune kun no revenge',
-      cover: 'One.jpg',
-    },
-    {
-      title: 'Kanojo, Okarishimasu',
-      cover: 'Kanojo.jpg',
-    },
-    {
-      title: 'Horimiya',
-      cover: 'Horimiya.jpg',
-    },
-    {
-      title: 'Gokushufudou: The Way of the House Husband',
-      cover: 'Goku.jpg',
-    },{
-      title: 'Masamune kun no revenge',
-      cover: 'One.jpg',
-    },
-    {
-      title: 'Kanojo, Okarishimasu',
-      cover: 'Kanojo.jpg',
-    },
-    {
-      title: 'Horimiya',
-      cover: 'Horimiya.jpg',
-    },
-    {
-      title: 'Gokushufudou: The Way of the House Husband',
-      cover: 'Goku.jpg',
-    },
-  ];
   
   searchOpen:boolean = false;
 
