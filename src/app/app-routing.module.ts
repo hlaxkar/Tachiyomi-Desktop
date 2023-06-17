@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {BrowseComponent} from '../app/Components/browse/browse.component'
 import { LibraryComponent } from './Components/library/library.component';
 import { SearchPageComponent } from './Components/search-page/search-page.component';
+import { MangaDetailsComponent } from './Components/manga-details/manga-details.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,9 @@ const routes: Routes = [
   },
   {
     path:'search', component:SearchPageComponent
+  },
+  {
+    path:'details/:mangaid', component:MangaDetailsComponent
   }
 ];
 

@@ -23,6 +23,7 @@
 
 <div class="container flex flex-wrap justify-between gap-2 p-2 relative mt-[140px]">
     <app-manga-cover
+    [routerLink]="['details','123']"
     *ngFor="let manga of data; index as i"
     [mangaData]="manga"
     class="w-[150px]"
