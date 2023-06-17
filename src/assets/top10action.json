@@ -1,0 +1,2819 @@
+{
+  "result": "ok",
+  "response": "collection",
+  "data": [
+    {
+      "id": "1044287a-73df-48d0-b0b2-5327f32dd651",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "JoJo's Bizarre Adventure Part 7 - Steel Ball Run (Official Colored)"
+        },
+        "altTitles": [
+          {
+            "en": "Blue Tusk Adventures"
+          },
+          {
+            "ja-ro": "JoJo no Kimyou na Bouken"
+          },
+          {
+            "ja-ro": "JoJo no Kimyou na Bouken: Steel Ball Run"
+          },
+          {
+            "en": "JoJo: SBR"
+          },
+          {
+            "en": "JoJo's Bizarre Adventure Part 7 - Steel Ball Run - Digital Colored Comics"
+          },
+          {
+            "zh": "JoJo的奇异冒险第7部分：钢球运行"
+          },
+          {
+            "es": "La extraña aventura de JoJo Parte 7: La carrera de las bolas de acero"
+          },
+          {
+            "ru": "Невероятное приключение ДжоДжо — Часть 7: Гонка «Стальной шар»"
+          },
+          {
+            "ko": "조조의 기묘한 모험 7 부 : 스틸 볼 달리기"
+          },
+          {
+            "ja": "ジョジョの奇妙な冒険 第7部 カラー版"
+          },
+          {
+            "pt-br": "A Estranha Aventura de JoJo, Parte 7: A Corrida da Esfera de Aço"
+          }
+        ],
+        "description": {
+          "en": "In the American Old West, the world's greatest race is about to begin. Thousands line up in San Diego to travel over six thousand kilometers for a chance to win the grand prize of fifty million dollars. With the era of the horse reaching its end, contestants are allowed to use any kind of vehicle they wish. Competitors will have to endure grueling conditions, traveling up to a hundred kilometers a day through uncharted wastelands. The Steel Ball Run is truly a one-of-a-kind event.  \n  \nThe youthful Johnny Joestar, a crippled former horse racer, has come to San Diego to watch the start of the race. There he encounters Gyro Zeppeli, a racer with two steel balls at his waist instead of a gun. Johnny witnesses Gyro using one of his steel balls to unleash a fantastical power, compelling a man to fire his gun at himself during a duel. In the midst of the action, Johnny happens to touch the steel ball and feels a power surging through his legs, allowing him to stand up for the first time in two years. Vowing to find the secret of the steel balls, Johnny decides to compete in the race, and so begins his bizarre adventure across America on the Steel Ball Run.",
+          "it": "Nel west americano, la gara più grande e importante del mondo sta per iniziare. Migliaia di persone sono pronte a partire da San Diego per viaggiare più di seimila chilometri incoraggiati da un premio enorme da cinquanta milioni di dollari. L'era dei cavalli sta per finire, i partecipanti allora possono usare il veicolo che preferiscono. I partecipanti devono superare situazioni estenuanti, viaggiando centinaia di chilometri al giorno passando per valli deserte inesplorate. La Steel Ball Run è unica nel suo genere.  \n  \nGiovane Johnny Joestar, un ex corridore di cavalli disabile, è venuto a San Diego per vedere la partenza della gara. Lì incontra Gyro Zeppelli, un corridore con due sfere d'acciaio pendenti fino alla sua vita, al posto della pistola. Johnny vede la sfera di Gyro e capisce della sua potenzialità, riuscendo a far suicidare il nemico durante un duello. Nel mezzo dell'azione, Johnny tocca la sfera d'acciaio di Gyro e sente passare una potenza nelle sue gambe, questa potenza lo fa alzare in piedi per la prima volta dopo due anni. Dopo aver giurato di capire il segreto di quelle sfere, Johnny decide di partecipare alla gara, e qui iniziano le sue bizzarre avventure per tutta l'America nella Steel Ball Run.",
+          "pt-br": "Nos Estados Unidos, na década de 1890, um homem chamado Steven Steel decide promover a \"Steel Ball Run\", uma corrida corta-mato cujo trajeto atravessa todo o país. A corrida é um grande atrativo mundial que chama a atenção tanto de corredores americanos como de corredores estrangeiros. Entre esses corredores estão Johnny Joestar, um ex-jóquei americano, e Gyro Zeppeli, um estrangeiro que carrega consigo misteriosas esferas de aço. Johnny e Gyro se esbarram e dão início à história da sétima parte de JoJo's Bizarre Adventure."
+        },
+        "isLocked": false,
+        "links": {
+          "al": "31706",
+          "ap": "jojos-bizarre-adventure-part-7-steel-ball-run",
+          "bw": "series/13019/list",
+          "kt": "jojo-s-bizarre-adventure-part-7-steel-ball-run",
+          "mu": "1002",
+          "amz": "https://www.amazon.co.jp/gp/product/B0756ZTWM4",
+          "ebj": "https://ebookjapan.yahoo.co.jp/books/145283/",
+          "mal": "1706",
+          "raw": "https://jojo-portal.com/about/sbr/"
+        },
+        "originalLanguage": "ja",
+        "lastVolume": "24",
+        "lastChapter": "95",
+        "publicationDemographic": "seinen",
+        "status": "completed",
+        "year": 2004,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Award Winning"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "320831a8-4026-470b-94f6-8353740e6f04",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Official Colored"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "33771934-028e-4cb3-8744-691e866a923e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Historical"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Psychological"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Martial Arts"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdad7e68-1419-41dd-bdce-27753074a640",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Horror"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Fantasy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Supernatural"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "ee968100-4191-4968-93d3-f82d72be7e46",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Mystery"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Tragedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2018-05-26T16:00:00+00:00",
+        "updatedAt": "2022-12-31T22:24:24+00:00",
+        "version": 29,
+        "availableTranslatedLanguages": [
+          "fr",
+          "sr",
+          "es-la",
+          "pl",
+          "id",
+          "pt-br",
+          "vi",
+          "ru",
+          "en",
+          "cs",
+          "he",
+          "it",
+          "de"
+        ],
+        "latestUploadedChapter": "8226908e-c131-476e-9986-ad2b0c5de8c3"
+      },
+      "relationships": [
+        {
+          "id": "03e4afc4-cd94-45a0-bb36-dfd34fa370b3",
+          "type": "author"
+        },
+        {
+          "id": "03e4afc4-cd94-45a0-bb36-dfd34fa370b3",
+          "type": "artist"
+        },
+        {
+          "id": "76e32e09-a47d-4f22-8d2b-7bba969cf655",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "24",
+            "fileName": "ba4722fb-85c2-4071-8dc2-746da9a4bb0c.jpg",
+            "locale": "ja",
+            "createdAt": "2021-05-23T07:56:30+00:00",
+            "updatedAt": "2021-05-23T07:56:30+00:00",
+            "version": 2
+          }
+        },
+        {
+          "id": "72d1ae71-4391-4bb2-9f39-784af3cc3c71",
+          "type": "manga",
+          "related": "prequel"
+        },
+        {
+          "id": "7a9d76c3-42b9-4bcf-81d7-ad307d2ea971",
+          "type": "manga",
+          "related": "sequel"
+        },
+        {
+          "id": "b30dfee3-9d1d-4e8d-bfbe-8fcabc3c96f6",
+          "type": "manga",
+          "related": "monochrome"
+        }
+      ]
+    },
+    {
+      "id": "6df29d13-2dab-4ca6-a0b5-74070abf3e1d",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "The One Within the Villainess"
+        },
+        "altTitles": [
+          {
+            "ja-ro": "Akuyaku Reijou no Naka no Hito ~Danzai sareta Tenseisha no Tame Usotsuki Heroine ni Fukushuu Itashimasu~"
+          },
+          {
+            "ja": "悪役令嬢の中の人"
+          },
+          {
+            "ja": "悪役令嬢の中の人〜断罪された転生者のため嘘つきヒロインに復讐いたします〜"
+          },
+          {
+            "zh": "恶役千金的真面目"
+          },
+          {
+            "zh": "恶役千金的真面目～为被定罪的转生者向骗子女主报复～"
+          },
+          {
+            "zh-hk": "惡役千金的真面目"
+          },
+          {
+            "zh-hk": "惡役千金的真面目～為被定罪的轉生者向騙子女主報復～"
+          },
+          {
+            "ko": "악역 영애 안의 사람"
+          },
+          {
+            "ja": "Akuyaku Reijou no Naka no Hito"
+          }
+        ],
+        "description": {
+          "en": "In order to clear the name of 'Emi,' a girl who had reincarnated as Remilia, the villainess of an otome game, the real Remilia who had been watching all along inside awakens.\n\nNow it's time for the true villainess' revenge to begin!"
+        },
+        "isLocked": false,
+        "links": {
+          "al": "148305",
+          "ap": "akuyaku-reijou-no-naka-no-hito",
+          "bw": "series/354096",
+          "kt": "akuyaku-reijou-no-naka-no-hito",
+          "mu": "192088",
+          "nu": "akuyaku-reijou-no-naka-no-hito",
+          "amz": "https://www.amazon.co.jp/dp/4758023867",
+          "mal": "148542",
+          "raw": "https://comic.pixiv.net/works/7926"
+        },
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "shoujo",
+        "status": "ongoing",
+        "year": 2021,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "0bc90acb-ccc1-44ca-a34a-b9f3a73259d0",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Reincarnation"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Monsters"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "39730448-9a5f-48a2-85b0-a70db87b1233",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Demons"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Romance"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Magic"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "ace04997-f6bd-436e-b261-779182193d3d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Isekai"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Fantasy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "d14322ac-4d6f-4e9b-afd9-629d5f4d8a41",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Villainess"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e197df38-d0e7-43b5-9b09-2842d0c326dd",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Web Comic"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adaptation"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2022-01-27T23:59:45+00:00",
+        "updatedAt": "2023-04-07T17:46:03+00:00",
+        "version": 29,
+        "availableTranslatedLanguages": [
+          "zh-hk",
+          "en",
+          "vi"
+        ],
+        "latestUploadedChapter": "ddd0abdd-21c1-4b7c-b7b5-a995289eecec"
+      },
+      "relationships": [
+        {
+          "id": "3d291c39-1aa9-4828-9db2-8258f169acfd",
+          "type": "author"
+        },
+        {
+          "id": "884e0433-4134-41c9-a465-e3bbee2cbf37",
+          "type": "artist"
+        },
+        {
+          "id": "cfa7cb2a-1252-4167-8019-19baeeafdc16",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "2",
+            "fileName": "5a664ba5-96db-41d8-b7f8-409ce14ae110.jpg",
+            "locale": "ja",
+            "createdAt": "2022-12-03T20:03:50+00:00",
+            "updatedAt": "2022-12-03T20:03:50+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "6db15b12-bac4-4a80-87c1-713ff4447c6e",
+          "type": "creator"
+        }
+      ]
+    },
+    {
+      "id": "d1a9fdeb-f713-407f-960c-8326b586e6fd",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "Vagabond"
+        },
+        "altTitles": [
+          {
+            "fr": "Avare"
+          },
+          {
+            "vi": "Lãng Khách"
+          },
+          {
+            "ru": "Бродяга"
+          },
+          {
+            "ar": "المتشرد"
+          },
+          {
+            "th": "วากาบอนด์"
+          },
+          {
+            "ja": "バガボンド"
+          },
+          {
+            "zh": "浪客行"
+          },
+          {
+            "ko": "베가본드"
+          },
+          {
+            "es-la": "Vagabundo"
+          },
+          {
+            "es": "Vagabundo"
+          },
+          {
+            "tr": "Avare"
+          },
+          {
+            "tr": "Serseri"
+          }
+        ],
+        "description": {
+          "en": "Growing up in the late 16th century Sengoku era Japan, Shinmen Takezou is shunned by the local villagers as a devil child due to his wild and violent nature. Running away from home with a fellow boy at age 17, Takezo joins the Toyotomi army to fight the Tokugawa clan at the Battle of Sekigahara. However, the Tokugawa win a crushing victory, leading to nearly three hundred years of Shogunate rule. Takezo and his friend manage to survive the battle and afterwards swear to do great things with their lives. However, after their paths separate, Takezo becomes a wanted criminal and must change his name and his nature in order to escape an ignoble death.  \n  \n**Awards:**\n- Won the 24th Kodansha Manga Award in the general category in 2000.\n- Won the Tezuka Osamu Cultural Prize in 2002 \n**Note:** was nominated for the 2003 Eisner Award in the Best Writer/Artist category.",
+          "es": "Creciendo en el Japón de la era Sengoku de finales del siglo XVI, Shinmen Takezou es rechazado por los aldeanos locales como un niño demonio debido a su naturaleza salvaje y violenta. A los 17 años, Takezou se escapa de casa con un compañero y se une al ejército Toyotomi para luchar contra el clan Tokugawa en la batalla de Sekigahara. Sin embargo, los Tokugawa obtienen una aplastante victoria, lo que da lugar a casi trescientos años de gobierno del Shogunato. Takezou y su amigo consiguen sobrevivir a la batalla y después juran hacer grandes cosas con sus vidas. Sin embargo, cuando sus caminos se separan, Takezou se convierte en un criminal buscado y debe cambiar su nombre y su naturaleza para escapar de una muerte innoble.  \n  \n**Premios:**\n    - Ganó el 24º Premio Kodansha de Manga en la categoría general en 2000.\n    - Ganó el Premio Cultural Tezuka Osamu en 2002\n    **Nota:** fue nominado al Premio Eisner 2003 en la categoría de Mejor Escritor/Artista.",
+          "es-la": "Creciendo en el Japón de la era Sengoku de finales del siglo XVI, Shinmen Takezou es rechazado por los aldeanos locales como un niño demonio debido a su naturaleza salvaje y violenta. A los 17 años, Takezou se escapa de casa con un compañero y se une al ejército Toyotomi para luchar contra el clan Tokugawa en la batalla de Sekigahara. Sin embargo, los Tokugawa obtienen una aplastante victoria, lo que da lugar a casi trescientos años de gobierno del Shogunato. Takezou y su amigo consiguen sobrevivir a la batalla y después juran hacer grandes cosas con sus vidas. Sin embargo, cuando sus caminos se separan, Takezou se convierte en un criminal buscado y debe cambiar su nombre y su naturaleza para escapar de una muerte innoble.  \n  \n**Premios:**\n    - Ganó el 24º Premio Kodansha de Manga en la categoría general en 2000.\n    - Ganó el Premio Cultural Tezuka Osamu en 2002\n    **Nota:** fue nominado al Premio Eisner 2003 en la categoría de Mejor Escritor/Artista."
+        },
+        "isLocked": true,
+        "links": {
+          "al": "30656",
+          "ap": "vagabond",
+          "kt": "1482",
+          "mu": "387",
+          "amz": "https://www.amazon.co.jp/dp/4063286193/",
+          "cdj": "http://www.cdjapan.co.jp/product/NEOBK-1934430",
+          "mal": "656",
+          "engtl": "https://www.viz.com/vagabond"
+        },
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "seinen",
+        "status": "hiatus",
+        "year": 1999,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Award Winning"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "33771934-028e-4cb3-8744-691e866a923e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Historical"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Psychological"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Martial Arts"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Sexual Violence"
+              },
+              "description": {},
+              "group": "content",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Gore"
+              },
+              "description": {},
+              "group": "content",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Tragedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2018-02-09T05:29:14+00:00",
+        "updatedAt": "2023-04-12T09:27:48+00:00",
+        "version": 21,
+        "availableTranslatedLanguages": [
+          "it",
+          "pt-br",
+          "es-la",
+          "en",
+          "pl",
+          "hu",
+          "uk",
+          "id",
+          "ar",
+          "tr"
+        ],
+        "latestUploadedChapter": "fea4e50c-ac20-4dab-b069-b744d5c7cab0"
+      },
+      "relationships": [
+        {
+          "id": "0b59098f-13c0-41cb-a110-9cbcec72dc0c",
+          "type": "author"
+        },
+        {
+          "id": "d0afd13f-36dd-4723-8e73-ea9d338b2492",
+          "type": "author"
+        },
+        {
+          "id": "0b59098f-13c0-41cb-a110-9cbcec72dc0c",
+          "type": "artist"
+        },
+        {
+          "id": "8e74a0f1-09a0-407f-9bfd-d4dc961e54e9",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "37",
+            "fileName": "05f8dcb4-8ea1-48db-a0b1-3a8fbf695e5a.jpg",
+            "locale": "ja",
+            "createdAt": "2022-07-24T22:10:43+00:00",
+            "updatedAt": "2022-07-24T22:10:43+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "6e5ddee5-eccb-48cc-b6bb-43488cc9791f",
+          "type": "manga",
+          "related": "colored"
+        },
+        {
+          "id": "88b6fcca-57dd-4df2-aac5-8935eaa6c34d",
+          "type": "manga",
+          "related": "alternate_story"
+        },
+        {
+          "id": "9560d60b-bc1f-4a4f-9420-c8eae79f8104",
+          "type": "manga",
+          "related": "side_story"
+        },
+        {
+          "id": "9843917a-1546-4672-b5ad-3ecc5f7020af",
+          "type": "manga",
+          "related": "alternate_story"
+        },
+        {
+          "id": "a9bf14be-fcff-4eea-9c45-ba3e40d399fa",
+          "type": "manga",
+          "related": "alternate_story"
+        },
+        {
+          "id": "fe18fe91-fa82-441c-9d87-66414d59a622",
+          "type": "manga",
+          "related": "same_franchise"
+        }
+      ]
+    },
+    {
+      "id": "cade38b7-64c4-4a29-8e3c-8c283291d6c6",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "Land of the Lustrous"
+        },
+        "altTitles": [
+          {
+            "tr": "Cevher Diyarı"
+          },
+          {
+            "ja-ro": "Houseki no Kuni"
+          },
+          {
+            "it": "Il Regno delle Gemme"
+          },
+          {
+            "fr": "L'Ère des Cristaux"
+          },
+          {
+            "ms": "Negara Permata"
+          },
+          {
+            "es": "La tierra de las gemas"
+          },
+          {
+            "ru": "Страна самоцветов"
+          },
+          {
+            "ja": "宝石の国"
+          },
+          {
+            "ko": "보석의 나라"
+          },
+          {
+            "id": "Tanah Permata"
+          },
+          {
+            "es-la": "La tierra de las gemas"
+          },
+          {
+            "pt-br": "Terra das Gemas"
+          }
+        ],
+        "description": {
+          "en": "In the distant future, a new life form called The Lustrous are born. The 28 Lustrous must fight against the Lunarians who want to attack them and turn them into decorations, thus each Lustrous is assigned a role such as a fighter or a medic. Though they hope to fight the Lunarians, Phos is a Lustrous who is given no assignment until the Lustrous' master Adamantine asks them to write an encyclopedia."
+        },
+        "isLocked": false,
+        "links": {
+          "al": "74489",
+          "ap": "land-of-the-lustrous",
+          "bw": "series/6943",
+          "kt": "24211",
+          "mu": "82304",
+          "amz": "https://www.amazon.co.jp/dp/B074B6Y3F4",
+          "cdj": "https://www.cdjapan.co.jp/product/NEOBK-2665113",
+          "ebj": "https://ebookjapan.yahoo.co.jp/books/170808/",
+          "mal": "44489",
+          "raw": "https://pocket.shonenmagazine.com/episode/3270375685457629093",
+          "engtl": "https://comics.inkr.com/title/1124-land-of-the-lustrous?utm_source=mgd"
+        },
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "seinen",
+        "status": "ongoing",
+        "year": 2012,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b1e97889-25b4-4258-b28b-cd7f4d28ea9b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Philosophical"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "ee968100-4191-4968-93d3-f82d72be7e46",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Mystery"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2018-08-20T09:26:07+00:00",
+        "updatedAt": "2023-02-18T16:34:56+00:00",
+        "version": 33,
+        "availableTranslatedLanguages": [
+          "ru",
+          "en",
+          "es-la",
+          "id",
+          "tr",
+          "fr",
+          "fa",
+          "uk",
+          "pt-br",
+          "ar",
+          "vi",
+          "pl"
+        ],
+        "latestUploadedChapter": "20520eab-a629-4f94-855f-dd7950b3c735"
+      },
+      "relationships": [
+        {
+          "id": "7903514f-0c62-442e-ab7c-3c80bcb6fe11",
+          "type": "author"
+        },
+        {
+          "id": "7903514f-0c62-442e-ab7c-3c80bcb6fe11",
+          "type": "artist"
+        },
+        {
+          "id": "21982e41-c3e9-4f28-ab88-03560be96fa5",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "12",
+            "fileName": "f69ae786-b7ad-4f24-bd29-3b00998d3a17.jpg",
+            "locale": "ja",
+            "createdAt": "2022-11-25T20:40:57+00:00",
+            "updatedAt": "2023-02-18T16:34:56+00:00",
+            "version": 2
+          }
+        },
+        {
+          "id": "37bf7574-641e-4665-b992-f2ba8d4652b8",
+          "type": "manga",
+          "related": "colored"
+        },
+        {
+          "id": "95264f28-3ccf-4dea-ad15-5323e4766b4c",
+          "type": "manga",
+          "related": "colored"
+        }
+      ]
+    },
+    {
+      "id": "b30dfee3-9d1d-4e8d-bfbe-8fcabc3c96f6",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "JoJo's Bizarre Adventure Part 7 - Steel Ball Run"
+        },
+        "altTitles": [
+          {
+            "ja": "ジョジョの奇妙な冒険 Part7『スティール・ボール・ラン』"
+          },
+          {
+            "en": "Blue Tusk Adventures"
+          },
+          {
+            "ja-ro": "JoJo no Kimyou na Bouken"
+          },
+          {
+            "ja-ro": "JoJo no Kimyou na Bouken: Steel Ball Run"
+          },
+          {
+            "en": "JoJo: SBR"
+          },
+          {
+            "zh": "JoJo的奇妙冒险 第七部 飙马野郎"
+          },
+          {
+            "es": "La Extraña Aventura de JoJo Parte 7 - Steel Ball Run"
+          },
+          {
+            "es": "La extraña aventura de JoJo Parte 7: La carrera de las bolas de acero"
+          },
+          {
+            "ru": "Невероятное приключение ДжоДжо — Часть 7: Гонка «Стальной шар»"
+          },
+          {
+            "ko": "조조의 기묘한 모험 7 부 : 스틸 볼 달리기"
+          },
+          {
+            "ro": "Aventurile Bizare ale lui JoJo Partea 7: Cursa \"Mingea de Oțel\""
+          },
+          {
+            "kk": "ДжоДжоның Шытырман Хикаясы: Болат Доп Бәйгесі"
+          },
+          {
+            "uk": "Неймовірні пригоди Джоджо частина 7: Перегони \"Сталева Куля\""
+          }
+        ],
+        "description": {
+          "en": "In the American Old West, the world's greatest race is about to begin. Thousands line up in San Diego to travel over six thousand kilometers for a chance to win the grand prize of fifty million dollars. With the era of the horse reaching its end, contestants are allowed to use any kind of vehicle they wish. Competitors will have to endure grueling conditions, traveling up to a hundred kilometers a day through uncharted wastelands. The Steel Ball Run is truly a one-of-a-kind event.  \n  \nThe youthful Johnny Joestar, a crippled former horse racer, has come to San Diego to watch the start of the race. There he encounters Gyro Zeppeli, a racer with two steel balls at his waist instead of a gun. Johnny witnesses Gyro using one of his steel balls to unleash a fantastical power, compelling a man to fire his gun at himself during a duel. In the midst of the action, Johnny happens to touch the steel ball and feels a power surging through his legs, allowing him to stand up for the first time in two years. Vowing to find the secret of the steel balls, Johnny decides to compete in the race, and so begins his bizarre adventure across America on the Steel Ball Run.",
+          "hu": "Amerikában a régi vadnyugaton, a világ legnagyobb szabású versenye hamarosan kezdődik. Ezrek állnak rajzvonalhoz San Diegoban, hogy utazzanak több mint hat ezer kilómétert annak reményében, hogy megnyerhetik az ötven millió dolláros fődíjat. A lovak kora elérkezett a végéhez, így a versenyzők szabadon használhattak bármiféle járművet. A versenyzőknek el kell majd tűrniük a fárasztő körülményeket, naponta több mint, száz kilómétert megtéve felfedezetlen vidékeken. A Steel Ball Run egy igazán egyedülálló esemény.\n\nA fiatalos Johnny Joestar, egy tolószékes korábbi lovas versenyző, eljött San Diegoba, hogy megnézze a verseny rajtját. Itt találkozik Gyro Zeppelivel, egy versenyzővel két acél golyóval a derekán fegyver helyett. Johnny szemtanúja lesz annak, hogy Gyro használja az egyik acélgolyóját, szabadjára engedve annak erejét, hogy arra kényszerítsen egy férfit egy párbaj közben, hogy lőjje le magát. Az ütközet közepette, Johnny megérinti az\nacélgolyót és érezte, hogy egy erő végigáramlik a lábán, rábírva őt arra, hogy felálljon először két év után. Megfogadja, hogy rájön, hogy mi a titka az acélgolyóknak, Johnny eldönti, hogy indul a versenyen, így kezdődik el az ő bizarr kalandja Amerikán keresztül a Steel Ball Runban.",
+          "uk": "Вересень 1980. Дикий Захід. Америка. Жокеї зі всього світу чекають гонку \"Сталева Куля\", яка ось-ось розпочнеться. Тисячі людей вишиковуються в Сан-Дієго, щоб подолати понад шість тисяч кілометрів заради шансу отримати головний приз — п’ятдесят мільйонів доларів. Юний Джонні Джостар, каліка, колишній жокей та популярний скакун, приїхав до Сан-Дієґо, щоб подивитися на старт перегонів. Там він зустрічає Джайро Цеппелі, гонщика з двома сталевими кулями на талії замість револьвера, звичної зброї для жителів. Джонні бачить, як Джайро використовує одну зі своїх сталевих куль, змушуючи людину вистрілити з рушниці в себе під час дуелі. Поклявшись знайти таємницю сталевих куль, Джонні вирішує взяти участь у гонці. Так і починається його химерна пригода.",
+          "pt-br": "Conta a história da Épica batalha entre a família Joestar e sua longa geração contra as forças Malignas, tais como Vampiros e Usuários de Stands.\nCada arco da série corresponde a um vilão e a um membro importante da família Joestar.\nGênero: Ação, Aventura, Sobrenatural, Luta\nAutor: Hirohiko Araki \nDemografia: Shonen/Seinen\nAno de publicação: 1987 - Presente\nNúmero de Volumes: 101 - Ainda em publicação"
+        },
+        "isLocked": false,
+        "links": {
+          "al": "31706",
+          "ap": "jojos-bizarre-adventure-part-7-steel-ball-run",
+          "bw": "series/13021/list",
+          "kt": "jojo-s-bizarre-adventure-part-7-steel-ball-run",
+          "mu": "1002",
+          "amz": "https://www.amazon.co.jp/gp/product/B0756ZXTM6",
+          "cdj": "https://www.cdjapan.co.jp/product/NEOBK-2201590",
+          "ebj": "https://ebookjapan.yahoo.co.jp/books/132402/",
+          "mal": "1706"
+        },
+        "originalLanguage": "ja",
+        "lastVolume": "24",
+        "lastChapter": "95",
+        "publicationDemographic": "seinen",
+        "status": "completed",
+        "year": 2004,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Thriller"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Award Winning"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "33771934-028e-4cb3-8744-691e866a923e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Historical"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Monsters"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "39730448-9a5f-48a2-85b0-a70db87b1233",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Demons"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Psychological"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "3de8c75d-8ee3-48ff-98ee-e20a65c86451",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Animals"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "5ca48985-9a9d-4bd8-be29-80dc0303db72",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Crime"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Survival"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "69964a64-2f90-4d33-beeb-f3ed2875eb4c",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Sports"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Martial Arts"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "97893a4c-12af-4dac-b6be-0dffb353568e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Sexual Violence"
+              },
+              "description": {},
+              "group": "content",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Magic"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Military"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Gore"
+              },
+              "description": {},
+              "group": "content",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdad7e68-1419-41dd-bdce-27753074a640",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Horror"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Fantasy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "da2d50ca-3018-4cc0-ac7a-6b7d472a29ea",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Delinquents"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Slice of Life"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Supernatural"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "ee968100-4191-4968-93d3-f82d72be7e46",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Mystery"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Tragedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2019-06-30T08:13:07+00:00",
+        "updatedAt": "2023-03-25T08:58:44+00:00",
+        "version": 22,
+        "availableTranslatedLanguages": [
+          "uk",
+          "en",
+          "pt-br",
+          "fr",
+          "es-la",
+          "it",
+          "hu"
+        ],
+        "latestUploadedChapter": "7fe50090-9c84-43a1-984d-f471b8870b4b"
+      },
+      "relationships": [
+        {
+          "id": "03e4afc4-cd94-45a0-bb36-dfd34fa370b3",
+          "type": "author"
+        },
+        {
+          "id": "03e4afc4-cd94-45a0-bb36-dfd34fa370b3",
+          "type": "artist"
+        },
+        {
+          "id": "52e9aed0-4d9b-42a0-9a9d-410c485b1cfb",
+          "type": "cover_art",
+          "attributes": {
+            "fileName": "0ebb1907-466d-42bb-a747-64bc8e8fa527.jpg",
+            "description": "",
+            "volume": "24",
+            "locale": "ja",
+            "version": 1,
+            "createdAt": "2022-04-17T22:55:06+00:00",
+            "updatedAt": "2022-04-17T22:55:06+00:00"
+          }
+        },
+        {
+          "id": "1044287a-73df-48d0-b0b2-5327f32dd651",
+          "type": "manga",
+          "related": "colored"
+        },
+        {
+          "id": "ab8cbb82-d0ed-45a7-8ffe-4bfa6d43d79c",
+          "type": "manga",
+          "related": "sequel"
+        },
+        {
+          "id": "c086153a-0162-412a-9914-a7b2633d0cd3",
+          "type": "manga",
+          "related": "sequel"
+        },
+        {
+          "id": "ea57752d-acb7-469e-aa60-43e694ded9a9",
+          "type": "manga",
+          "related": "prequel"
+        }
+      ]
+    },
+    {
+      "id": "2c4b353f-d968-461b-be49-4f2599189a79",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "Pokemon - Festival of Champions (Doujinshi)"
+        },
+        "altTitles": [
+          {
+            "en": "Pokemon: Festival of Kings"
+          },
+          {
+            "ja": "王者の祭典"
+          }
+        ],
+        "description": {
+          "en": "The Indigo League: the ultimate challenge for Pokémon trainers. Structured like a massive tournament, anyone eager to show off their Pokémon can participate, from rookies to gym leaders to even the Elite Four themselves.  \n  \nThis is the story of Red, Blue, and Green, three friends who decide to partake in the tournament."
+        },
+        "isLocked": true,
+        "links": {
+          "mu": "142166"
+        },
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": null,
+        "status": "ongoing",
+        "year": null,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b13b2a48-c720-44a9-9c77-39c9979373fb",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Doujinshi"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Fantasy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Tragedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2018-09-13T07:33:16+00:00",
+        "updatedAt": "2022-02-25T14:19:44+00:00",
+        "version": 6,
+        "availableTranslatedLanguages": [
+          "fr",
+          "en",
+          "pt-br"
+        ],
+        "latestUploadedChapter": "4f183c1d-39b8-4c10-8a09-9c1935f52955"
+      },
+      "relationships": [
+        {
+          "id": "87436933-ca0d-4682-b180-a476ea460b01",
+          "type": "author"
+        },
+        {
+          "id": "87436933-ca0d-4682-b180-a476ea460b01",
+          "type": "artist"
+        },
+        {
+          "id": "d29859c4-48ab-4f47-9964-7e922be496f9",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": null,
+            "fileName": "531cd3f0-6ace-4812-a74a-25dcc2271529.jpg",
+            "locale": "ja",
+            "createdAt": "2021-05-24T16:44:47+00:00",
+            "updatedAt": "2021-05-24T16:44:47+00:00",
+            "version": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "d90ea6cb-7bc3-4d80-8af0-28557e6c4e17",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "Dungeon Meshi"
+        },
+        "altTitles": [
+          {
+            "en": "Delicious in Dungeon"
+          },
+          {
+            "en": "Dungeon Food"
+          },
+          {
+            "fr": "Gloutons et Dragons"
+          },
+          {
+            "lt": "Požemio Maistas"
+          },
+          {
+            "es": "Tragones y Mazmorras"
+          },
+          {
+            "tr": "Zindan Yemeği"
+          },
+          {
+            "ru": "Подземелье вкусностей"
+          },
+          {
+            "th": "สูตรลับตำรับดันเจียน"
+          },
+          {
+            "ja": "ダンジョン飯"
+          },
+          {
+            "zh": "舌尖上的地下城"
+          },
+          {
+            "zh": "迷宫饭"
+          },
+          {
+            "es-la": "Comida de Mazmorra"
+          }
+        ],
+        "description": {
+          "en": "After his sister is devoured by a dragon and losing all their supplies in a failed dungeon raid, Laios and his party are determined to save his sister before she gets digested. Completely broke and having to resort to eating monsters as food, they meet a dwarf who will introduce them to the world of Dungeon Meshi - delicious cuisine made from ingredients such as the flesh of giant bats, walking mushrooms, or even screaming mandrakes.  \n  \n---\n- **Ranked 1st in the 2016 Kono Manga ga Sugoi! for Male Readers (Shonen/Seinen)**",
+          "es": "Después de que su hermana fuera devorada por un dragón y habiendo perdido todas sus provisiones, Laios y su equipo están decididos a salvar a Farin antes de que sea digerida por la gran bestia. Es así como conocen a un singular enano que los introducirá al mundo gastronómico de las mazmorras: delicias elaboradas a partir de la carne de murciélagos gigantes, hongos caminantes y mandrágoras chillonas."
+        },
+        "isLocked": false,
+        "links": {
+          "al": "86082",
+          "ap": "delicious-in-dungeon",
+          "bw": "series/22301",
+          "kt": "27539",
+          "mu": "106656",
+          "amz": "https://www.amazon.co.jp/gp/product/B074C559L8",
+          "cdj": "https://www.cdjapan.co.jp/product/NEOBK-2644765",
+          "ebj": "https://ebookjapan.yahoo.co.jp/books/278747/",
+          "mal": "85781",
+          "raw": "https://comic-walker.com/contents/detail/KDCW_EB06000001010000_68/",
+          "engtl": "https://yenpress.com/9780316473064/delicious-in-dungeon-vol-1/"
+        },
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "seinen",
+        "status": "ongoing",
+        "year": 2014,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Award Winning"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Monsters"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Survival"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Magic"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Fantasy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "dd1f77c5-dea9-4e2b-97ae-224af09caf99",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Monster Girls"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "ea2bc92d-1c26-4930-9b7c-d5c0dc1b6869",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Cooking"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Supernatural"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2018-10-09T01:28:15+00:00",
+        "updatedAt": "2023-05-15T02:35:11+00:00",
+        "version": 29,
+        "availableTranslatedLanguages": [
+          "ru",
+          "es",
+          "en",
+          "es-la",
+          "pt-br"
+        ],
+        "latestUploadedChapter": "39e2205e-1037-4597-a4dc-dc3de39461c8"
+      },
+      "relationships": [
+        {
+          "id": "22470bea-8c6c-40ff-943c-d1da388a8eac",
+          "type": "author"
+        },
+        {
+          "id": "22470bea-8c6c-40ff-943c-d1da388a8eac",
+          "type": "artist"
+        },
+        {
+          "id": "b5fda212-56e5-41d3-8eb7-93982ba2f305",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "12",
+            "fileName": "cbdbb7d3-f9d0-4403-a31a-1e436a958bda.jpg",
+            "locale": "ja",
+            "createdAt": "2022-08-05T16:24:13+00:00",
+            "updatedAt": "2022-08-05T16:24:13+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "5bad3fe1-c741-4766-805b-555949510aa6",
+          "type": "manga",
+          "related": "doujinshi"
+        },
+        {
+          "id": "b982aa9c-17eb-415d-bcf8-a92f7daf0ae4",
+          "type": "manga",
+          "related": "same_franchise"
+        }
+      ]
+    },
+    {
+      "id": "7a9d76c3-42b9-4bcf-81d7-ad307d2ea971",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "JoJo's Bizarre Adventure Part 8 - JoJolion (Official Colored)"
+        },
+        "altTitles": [
+          {
+            "ja-ro": "JoJo no Kimyou na Bouken: JoJolion"
+          },
+          {
+            "en": "JoJo's Bizarre Adventure Part 8 - JoJolion - Digital Colored Comics"
+          },
+          {
+            "es-la": "JoJo's Bizarre Adventure, Parte 8 : JoJolion - Color Digital"
+          },
+          {
+            "ja-ro": "JoJorion"
+          },
+          {
+            "ru": "Невероятные Приключения ДжоДжо Часть 8: Джоджолион (цветная версия)"
+          },
+          {
+            "ja": "ジョジョの奇妙な冒険"
+          },
+          {
+            "ja": "ジョジョの奇妙な冒険 ジョジョリオン"
+          },
+          {
+            "ja": "ジョジョリオン"
+          }
+        ],
+        "description": {
+          "en": "Eighth story arc of JoJo no Kimyou na Bouken series.  \r\n  \r\nFollowing the Great East Japan earthquake, Morioh has been stricken by vast earthen protrusions known by the locals as Wall Eyes. Despite investigation, professional estimations are left empty. Meanwhile, the young girl Yasuho Hirose discovers a man buried within the ground, he possesses a distinctive star-shaped birthmark together with deeply penetrating bite marks. The man, who has contracted a staple case of amnesia is taken in by a local family and given the name Jousuke Higashikata, however mysterious events cannot stop from piling one upon the other and soon that enigma known as stand emerges to complement the great cloud of confusion.  \r\n  \r\n- Won the Grand Prize in the manga category at the 17th Japan Media Arts Festival in 2013.",
+          "es-la": "El arco de la octava historia de la serie: JoJo's Bizarre Adventure.\n\nTras el gran terremoto del este en Japón, Morioh ha sido golpeado por grandes protuberancias de tierra conocidas por los lugareños como Los Muros con Ojos. A pesar de la investigación, las estimaciones profesionales quedan vacías. Mientras tanto, la joven Yasuho Hirose, descubre a un hombre enterrado en la tierra, este posee una distintiva marca de nacimiento en forma de estrella junto con marcas de mordeduras profundas. El hombre, que ha contraído un caso básico de amnesia, es acogido por una familia local y recibe el nombre de Jousuke Higashikata, sin embargo, los eventos misteriosos no pueden evitar que se acumulen unos sobre otros y pronto ese enigma conocido como \"stand\", emerge para complementar la gran nube de confusión.\n\n° Ganó el Gran Premio en la categoría de manga en el 17º Festival de Artes de Medios de Japón en 2013."
+        },
+        "isLocked": false,
+        "links": {
+          "al": "55515",
+          "ap": "jojos-bizarre-adventure-part-8-jojolion",
+          "bw": "series/57279",
+          "mu": "65665",
+          "amz": "https://www.amazon.co.jp/gp/product/B074C5XSHP",
+          "mal": "25515"
+        },
+        "originalLanguage": "ja",
+        "lastVolume": "27",
+        "lastChapter": "110",
+        "publicationDemographic": "seinen",
+        "status": "completed",
+        "year": 2015,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Award Winning"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "320831a8-4026-470b-94f6-8353740e6f04",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Official Colored"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdad7e68-1419-41dd-bdce-27753074a640",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Horror"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Fantasy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Slice of Life"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Supernatural"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "ee968100-4191-4968-93d3-f82d72be7e46",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Mystery"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2019-05-31T20:04:06+00:00",
+        "updatedAt": "2023-03-13T06:34:20+00:00",
+        "version": 24,
+        "availableTranslatedLanguages": [
+          "fr",
+          "it",
+          "en",
+          "ru",
+          "pt-br",
+          "es-la",
+          "id",
+          "pl",
+          "es",
+          "tr"
+        ],
+        "latestUploadedChapter": "86ff8a64-8987-4a8b-9c3a-29647c4aa6bf"
+      },
+      "relationships": [
+        {
+          "id": "03e4afc4-cd94-45a0-bb36-dfd34fa370b3",
+          "type": "author"
+        },
+        {
+          "id": "03e4afc4-cd94-45a0-bb36-dfd34fa370b3",
+          "type": "artist"
+        },
+        {
+          "id": "5ffb42f4-ff5b-45e1-a659-942e06fb3465",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "27",
+            "fileName": "6c45bc54-bd0a-4fcb-8094-b64b2cf9c150.png",
+            "locale": "ja",
+            "createdAt": "2022-12-30T15:56:09+00:00",
+            "updatedAt": "2022-12-30T15:56:09+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "1044287a-73df-48d0-b0b2-5327f32dd651",
+          "type": "manga",
+          "related": "prequel"
+        },
+        {
+          "id": "c086153a-0162-412a-9914-a7b2633d0cd3",
+          "type": "manga",
+          "related": "monochrome"
+        }
+      ]
+    },
+    {
+      "id": "3bb0279f-a01d-4aa4-93e4-305800f4b83e",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "Akatsuki no Yona"
+        },
+        "altTitles": [
+          {
+            "de": "Yona - Prinzessin der Morgendämmerung"
+          },
+          {
+            "vi": "Yona - Công chúa bình minh"
+          },
+          {
+            "es": "Yona del alba"
+          },
+          {
+            "es": "Yona del amanecer"
+          },
+          {
+            "pt-br": "Yona do amanhecer"
+          },
+          {
+            "es": "Yona en el amanecer"
+          },
+          {
+            "pl": "Yona w blasku świtu"
+          },
+          {
+            "fr": "Yona: Princesse de l'aube"
+          },
+          {
+            "tr": "Yona: Şafağın Kızıllığında Duran Kız"
+          },
+          {
+            "ru": "Иона: Девушка, стоящая в лучах рассвета"
+          },
+          {
+            "ru": "Йона на заре"
+          },
+          {
+            "ru": "Рассвет Ёны"
+          },
+          {
+            "ru": "Рассвет Йоны"
+          },
+          {
+            "ar": "أكاتسكي نو يونا"
+          },
+          {
+            "ar": "فجر يونا"
+          },
+          {
+            "ar": "يونا فتاة الفجر"
+          },
+          {
+            "fa": "یونا دختر سپیده دم"
+          },
+          {
+            "zh": "拂晓的尤娜"
+          },
+          {
+            "zh-hk": "晨曦公主"
+          },
+          {
+            "ja": "暁のヨナ"
+          },
+          {
+            "ko": "새벽의 연화"
+          },
+          {
+            "it": "Yona: la principessa scarlatta"
+          },
+          {
+            "en": "Yona: The Girl Standing in the Blush of Dawn"
+          },
+          {
+            "th": "กู้บัลลังก์มังกรแดง"
+          },
+          {
+            "en": "Yona of the Dawn"
+          }
+        ],
+        "description": {
+          "en": "Yona is the sole princess of the Kingdom of Kouka, living a luxurious and carefree life as a princess should. She has it all: the finest clothes and cosmetics, the most divine sweets, a loving emperor as a father, and the hottest cousin crush, Soo-won, any girl could ever hope to have. Now, if only her bodyguard, Son Hak, weren't so annoying towards her, and if her hair weren't so red…  \nBut her nearly perfect world quickly shatters as the man she loves, Soo-won, murders her father and the path to his ascension to the throne is assured. Son Hak escapes with Yona, and they lead a life on the run from that point on.  \n  \n\n\n---",
+          "id": "Dahulu kala, 2.000 tahun yang lalu Kerajaan Kouka didirikan dan diperintah oleh seekor naga merah yang turun ke Bumi dari Surga berubah menjadi manusia dengan nama Hiryuu. Di sisinya, empat prajurit yang dijiwai dengan darah naga dari para Dewa yang membantunya memimpin kerajaan menuju kemakmuran. Waktu berlalu, dan kisah ini menjadi legenda untuk diceritakan kepada anak-anak. 2.000 tahun kemudian, kerajaan tidak memiliki ahli waris laki-laki kecuali seorang putri tunggal bernama Yona yang hidup dalam kemewahan. Jatuh cinta dengan sepupunya, Soo-Won , dan dilindungi oleh pengawalnya, Son Hak , dia memiliki semua yang dia inginkan dan terlindung dari kenyataan mengerikan di luar tembok kastil. Bertentangan dengan ilusi damai ini, Kouka mengalami pergolakan politik dari dalam kerajaan. Setelah Su-won yang dicintainya melakukan kudeta berdarah dan membunuh ayahnya, Yona terpaksa melarikan diri hanya dengan Hak di sisinya dan mulai menjalani kehidupan dalam pelarian. Meskipun dikelilingi oleh musuh di semua sisi, putri yang dibuang itu masih ingin menyelamatkan kerajaannya. Solusinya datang dari seorang pendeta yang diasingkan, yang mengatakan kepadanya bahwa satu-satunya harapannya adalah menemukan empat prajurit naga legendaris. Dipandu oleh mitos yang tampaknya fiktif ini, Yona berangkat untuk menemukan para pejuang ini, bertekad untuk memperjuangkan tahta, dan memulihkan kerajaan sambil menjalin pertemanan dan sekutu baru di sepanjang jalan.",
+          "ru": "Йона — единственная принцесса королевства Коука. Она ведет роскошную и беззаботную жизнь, как и подобает принцессам. У неё есть всё: лучшая одежда и косметика, превосходные сладости, любящий отец Император Иль, и сильнейшие чувства к кузену Су Вону, о котором многие могли лишь мечтать. Вот только если бы её телохранитель Сон Хак не так раздражал и её волосы не были такими красными.   \nВсе меняется в ночь на шестнадцатый день рождения девушки. Почти идеальный мир быстро рассыпается, когда человек, которого она любит — Су Вон — убил её отца. Путь к его становлению на престол ныне гарантирован. Вместе с Хаком, Йона скрылась из замка в поисках помощи, и с этого момента они ведут жизнь в бегах…",
+          "pt-br": "Yona, única princesa do reino, era apaixonada pelo seu primo e tinha uma vida luxuosamente despreocupada, como toda princesa. Mas tudo muda depois de uma traição que a obriga a fugir do castelo com seu guarda-costas, Son Hak. Nisso, eles descobrem sobre uma lenda que mudará totalmente o destino deles."
+        },
+        "isLocked": false,
+        "links": {
+          "al": "51525",
+          "ap": "yona-of-the-dawn",
+          "bw": "series/16791",
+          "kt": "11152",
+          "mu": "46331",
+          "amz": "https://www.amazon.co.jp/gp/product/B074CH8FXX",
+          "cdj": "http://www.cdjapan.co.jp/series/4165?term.cat_id=UD-14&page=1&order=-rel",
+          "ebj": "https://ebookjapan.yahoo.co.jp/books/128230",
+          "mal": "21525",
+          "engtl": "https://www.viz.com/yona-of-the-dawn"
+        },
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "shoujo",
+        "status": "ongoing",
+        "year": 2009,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Romance"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "65761a2a-415e-47f3-bef2-a9dababba7a6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Reverse Harem"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Military"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Fantasy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "eabc5b4c-6aff-42f3-b657-3e90cbd00b75",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Supernatural"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "ee968100-4191-4968-93d3-f82d72be7e46",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Mystery"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2018-04-10T08:42:00+00:00",
+        "updatedAt": "2023-05-17T17:02:41+00:00",
+        "version": 32,
+        "availableTranslatedLanguages": [
+          "en",
+          "bg",
+          "ru",
+          "ar",
+          "pt-br",
+          "hu",
+          "tr",
+          "pl",
+          "id"
+        ],
+        "latestUploadedChapter": "19d8d8b4-ac98-4ba5-b63f-b24a2130cc41"
+      },
+      "relationships": [
+        {
+          "id": "6794fb34-5852-4723-8e3c-81b91d6004f6",
+          "type": "author"
+        },
+        {
+          "id": "6794fb34-5852-4723-8e3c-81b91d6004f6",
+          "type": "artist"
+        },
+        {
+          "id": "de4c1191-839b-4233-8f95-5a8fac4ef71d",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "41",
+            "fileName": "0071e949-e0af-4070-a584-6217e51a18ad.jpg",
+            "locale": "ja",
+            "createdAt": "2023-05-17T17:02:40+00:00",
+            "updatedAt": "2023-05-17T17:02:40+00:00",
+            "version": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "5d1fc77e-706a-4fc5-bea8-486c9be0145d",
+      "type": "manga",
+      "attributes": {
+        "title": {
+          "en": "Vinland Saga"
+        },
+        "altTitles": [
+          {
+            "pl": "Saga Winlandzka"
+          },
+          {
+            "tr": "Vinland Destanı"
+          },
+          {
+            "ru": "Сага о Винланде"
+          },
+          {
+            "uk": "Сага про Вінланд"
+          },
+          {
+            "ja": "ヴィンランド・サガ"
+          },
+          {
+            "zh-hk": "海盜戰記"
+          },
+          {
+            "zh": "海盗战记"
+          },
+          {
+            "kk": "Винланд дастаны"
+          }
+        ],
+        "description": {
+          "en": "As a child, Thorfinn sat at the feet of the great Leif Ericson and thrilled to wild tales of a land far to the west. But his youthful fantasies were shattered by a mercenary raid. Raised by the Vikings who murdered his family, Thorfinn became a terrifying warrior, forever seeking to kill the band's leader, Askeladd, and avenge his father. Sustaining Thorfinn through his ordeal are his pride in his family and his dreams of a fertile westward land, a land without war or slavery… the land Leif called Vinland.  \n\n---\n- **Won the Japan Media Arts Award Division Grand Prize in 2009**\n- **Won the 36th Kodansha Manga Award for General Manga in 2012**",
+          "ru": "Эта история случилась в начале XI века, когда викинги, безраздельно господствовавшие в северных морях, грабили побережья Франции и Англии. В эпоху, где оружие значило больше, нежели слова, маленький мальчик невольно оказывается косвенной причиной гибели своего отца. Повзрослев и став на путь воина, он жаждет честного поединка с убийцей отца – легендарным главарём отряда викингов-наемников, но возраст и отсутствие опыта не позволяют ему сделать это. Чтобы не упускать своего врага из виду, юноша вступает в его отряд и в награду за выполнение тяжелого боевого задания требует поединка с ним, но терпит поражение. Юноша продолжает прилагать все усилия, чтобы осуществить свою месть. Внезапно он оказывается вовлечён в куда более кровавое столкновение…",
+          "tr": "Çocukken Thorfinn, büyük Leif Ericson'un ayaklarının dibinde oturur ve batıdaki uzak diyarların vahşi masallarıyla heyecanlanırdı. Ama gençlik hayalleri bir paralı asker baskınıyla paramparça oldu. Ailesini öldüren Vikingler tarafından yetiştirilen Thorfinn, grubun lideri Askeladd'ı öldürmek ve babasının intikamını almak isteyen korkunç bir savaşçı oldu. Thorfinn'i çileli yaşamı boyunca ayakta tutan, ailesiyle olan gururu ve batıdaki bereketli topraklara, savaşın ve köleliğin olmadığı bir ülkeye, Leif'in Vinland adını verdiği topraklara dair hayalleridir.",
+          "pt-br": "Thorfinn é filho de Thors, um lendário guerreiro viking, mas que após anos no campo de batalha, descobre uma coisa mais maravilhosa que matar seus iguais. Viver sua própria vida, em paz. Mas os ventos lhe trazem uma notícia que atrapalhará seus dias de paz, e Thorfinn, seu filho, pouco sabe desta vida passada de guerra de seu pai. Após descobrir o passado de seu pai, Thorfinn se revolta contra ele, e sai para a guerra junto de seu pai, mas quando reconhece o verdadeiro valor dele, já é tarde demais. Agora Thorfinn deverá seguir sua própria vida, seguindo valores que seu pai lhe ensinou, mas sem perder sua coragem. Este é só o começo desta grande saga de Thorfinn que acompanha os Vikings no século XI!"
+        },
+        "isLocked": false,
+        "links": {
+          "al": "30642",
+          "ap": "vinland-saga",
+          "bw": "series/3555",
+          "kt": "1456",
+          "mu": "1568",
+          "amz": "https://www.amazon.co.jp/dp/B074C9PB88",
+          "cdj": "https://www.cdjapan.co.jp/product/NEOBK-2626088",
+          "ebj": "https://ebookjapan.yahoo.co.jp/books/107593/",
+          "mal": "642",
+          "raw": "https://pocket.shonenmagazine.com/episode/10834108156664007671",
+          "engtl": "https://comics.inkr.com/title/2107-vinland-saga?utm_source=mgd"
+        },
+        "originalLanguage": "ja",
+        "lastVolume": "",
+        "lastChapter": "",
+        "publicationDemographic": "seinen",
+        "status": "ongoing",
+        "year": 2005,
+        "contentRating": "safe",
+        "tags": [
+          {
+            "id": "07251805-a27e-4d59-b488-f0bfbec15168",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Thriller"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "0a39b5a1-b235-4886-a747-1d05d216532d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Award Winning"
+              },
+              "description": {},
+              "group": "format",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "33771934-028e-4cb3-8744-691e866a923e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Historical"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Action"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "3b60b75c-a2d7-4860-ab56-05f391bb889c",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Psychological"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Romance"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "4d32cc48-9f00-4cca-9b5a-a839f0764984",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Comedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "5fff9cde-849c-4d78-aab0-0d52b2ee1d25",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Survival"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "799c202e-7daa-44eb-9cf7-8a3c0441531e",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Martial Arts"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Adventure"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "ac72833b-c4e9-4878-b9db-6c8a4a99444a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Military"
+              },
+              "description": {},
+              "group": "theme",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b29d6a3d-1569-4e7a-8caf-7557bc92cd5d",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Gore"
+              },
+              "description": {},
+              "group": "content",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "b9af3a63-f058-46de-a9a0-e0c13906197a",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Drama"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "cdad7e68-1419-41dd-bdce-27753074a640",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Horror"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Slice of Life"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          },
+          {
+            "id": "f8f62932-27da-4fe4-8ee1-6779a8c5edba",
+            "type": "tag",
+            "attributes": {
+              "name": {
+                "en": "Tragedy"
+              },
+              "description": {},
+              "group": "genre",
+              "version": 1
+            },
+            "relationships": []
+          }
+        ],
+        "state": "published",
+        "chapterNumbersResetOnNewVolume": false,
+        "createdAt": "2018-01-25T10:53:04+00:00",
+        "updatedAt": "2023-06-14T21:04:00+00:00",
+        "version": 41,
+        "availableTranslatedLanguages": [
+          "es-la",
+          "en",
+          "pt-br",
+          "ru",
+          "ar",
+          "cs",
+          "uk",
+          "tr",
+          "es",
+          "it"
+        ],
+        "latestUploadedChapter": "95cee70e-afaf-4b32-958c-faab4001b0d6"
+      },
+      "relationships": [
+        {
+          "id": "f5d4fca1-d573-4383-af08-c06b0794ba4e",
+          "type": "author"
+        },
+        {
+          "id": "f5d4fca1-d573-4383-af08-c06b0794ba4e",
+          "type": "artist"
+        },
+        {
+          "id": "94bc65e9-6918-4ef0-a181-5dc90b1d2fbe",
+          "type": "cover_art",
+          "attributes": {
+            "description": "",
+            "volume": "27",
+            "fileName": "536c6d49-2253-465b-be08-9e9232db6642.jpg",
+            "locale": "ja",
+            "createdAt": "2023-06-14T21:04:09+00:00",
+            "updatedAt": "2023-06-14T21:04:09+00:00",
+            "version": 1
+          }
+        },
+        {
+          "id": "08cd6a32-c1e4-4a26-94a5-92bac648b9ac",
+          "type": "manga",
+          "related": "alternate_story"
+        },
+        {
+          "id": "9eec6ba5-68a4-4b42-9bc1-8b7472f62ed5",
+          "type": "manga",
+          "related": "alternate_story"
+        },
+        {
+          "id": "b8fb0553-79d8-4f0d-a0dc-9fa9d452b986",
+          "type": "manga",
+          "related": "colored"
+        },
+        {
+          "id": "c6969b83-32b4-4218-8934-4d9663607b5b",
+          "type": "manga",
+          "related": "spin_off"
+        }
+      ]
+    }
+  ],
+  "limit": 10,
+  "offset": 0,
+  "total": 10810
+}

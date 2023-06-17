@@ -8,8 +8,16 @@ import { Observable } from 'rxjs';
 })
 export class MangadexApiService {
 
- 
+ private sampleData:any
   constructor(private http: HttpClient) {}
+
+
+  getSample(){
+    this.http.get('src/assets/static/top10action.json').subscribe((res) => {
+     this.sampleData = res;
+    });
+    return this.sampleData
+  }
 
   searchManga(title?: string,order?: string, includedTagsMode?: string, excludedTagsMode?: string, contentRatings?: string[]): Observable<any> {
     let url = `https://api.mangadex.org/manga?`;
