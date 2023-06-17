@@ -20,7 +20,7 @@ interface MangaAttributes {
     updatedAt: string;
   }
   
-  interface MangaRelationships {
+  export interface MangaRelationships {
     monochrome: string;
   }
   
@@ -38,7 +38,7 @@ interface MangaAttributes {
     version: number;
   }
   
-  interface MangaTagRelationships {
+  export interface MangaTagRelationships {
     monochrome: string;
   }
   

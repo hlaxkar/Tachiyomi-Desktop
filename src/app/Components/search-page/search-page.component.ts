@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MangadexApiService } from 'src/app/Services/mangadex-api.service';
+import { MangaModel,MangaRelationships } from 'src/app/Models/mangadex-manga.model';
 
 import sampleData from '../../../assets/top10action.json';
 @Component({
@@ -9,15 +10,21 @@ import sampleData from '../../../assets/top10action.json';
 })
 export class SearchPageComponent {
 sampledata:any
-manga1 = sampleData.data[0]
-title = this.manga1['attributes']['title']['en']
+
 
   constructor(private mangadexApiService:MangadexApiService){
 
     this.sampledata = sampleData.data.map(data=>{
+      
+      // (rel=>{
+      //   if (rel.type=='cover_art'){
+      //     return rel.attributes?.fileName
+      //   }
+      // })
       return {title:data['attributes']['title']['en'],
-      cover: 'One.jpg',
-      id: data.id
+      cover: cover,
+      id: data.id,
+      res:'256'
     }
     })
   }

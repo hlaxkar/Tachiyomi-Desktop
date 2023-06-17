@@ -10,8 +10,8 @@ export class MangadexApiService {
 
  private sampleData:any
   constructor(private http: HttpClient) {}
-
-
+  private url = `https://api.mangadex.org/manga?`;
+ private imageurl = 'https://uploads.mangadex.org/covers/';
   getSample(){
     this.http.get('src/assets/static/top10action.json').subscribe((res) => {
      this.sampleData = res;
@@ -20,7 +20,7 @@ export class MangadexApiService {
   }
 
   searchManga(title?: string,order?: string, includedTagsMode?: string, excludedTagsMode?: string, contentRatings?: string[]): Observable<any> {
-    let url = `https://api.mangadex.org/manga?`;
+    let url = this.url;
 
     if (title) {
       url += `title=${title}&`;
@@ -46,20 +46,14 @@ export class MangadexApiService {
 
     return this.http.get(url);
   }
+
+getCover(mangaid:string, fileName:string, res:string): Observable<any>{
+
+  let url = this.imageurl+mangaid+'/'+fileName+'.'+res+'.jpg'
+return this.http.get(url);
+
 }
 
-// import { Injectable } from '@angular/core';
 
-// @Injectable({
-//   providedIn: 'root'
-// })
-// export class MangaService {
 
-//   constructor(private http: HttpClient) {}
-
-//   getMangas(title: string, includedTagsMode: string, excludedTagsMode: string, contentRatings: string[], order: string): Observable<Manga[]> {
-//     const url = `https://api.mangadex.org/manga?limit=2&title=${title}&includedTagsMode=${includedTagsMode}&excludedTagsMode=${excludedTagsMode}&contentRating%5B%5D=${contentRatings[0]}&contentRating%5B%5D=${contentRatings[1]}&contentRating%5B%5D=${contentRatings[2]}&order%5Brating%5D=${order}`;
-//     return this.http.get(url);
-//   }
-
-// }
+}
