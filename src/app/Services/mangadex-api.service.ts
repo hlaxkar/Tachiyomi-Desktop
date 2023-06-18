@@ -20,7 +20,7 @@ export class MangadexApiService {
   }
 
   searchManga(title?: string): Observable<any> {
-    let url = this.url+'&includes%5B%5D=manga&includes%5B%5D=cover_art&order%5Brating%5D=desc&';
+    let url = this.url+'&includes%5B%5D=manga&includes%5B%5D=cover_art&order%5Brating%5D=desc&limit=20&';
 
     if (title) {
       url += `title=${title}`;
