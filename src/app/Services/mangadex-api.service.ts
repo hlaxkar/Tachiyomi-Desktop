@@ -19,30 +19,14 @@ export class MangadexApiService {
     return this.sampleData
   }
 
-  searchManga(title?: string,order?: string, includedTagsMode?: string, excludedTagsMode?: string, contentRatings?: string[]): Observable<any> {
-    let url = this.url;
+  searchManga(title?: string): Observable<any> {
+    let url = this.url+'&includes%5B%5D=manga&includes%5B%5D=cover_art&order%5Brating%5D=desc&';
 
     if (title) {
-      url += `title=${title}&`;
-    }
+      url += `title=${title}`;
+    }  
 
-    if (includedTagsMode) {
-      url += `includedTagsMode=${includedTagsMode}&`;
-    }
-
-    if (excludedTagsMode) {
-      url += `excludedTagsMode=${excludedTagsMode}&`;
-    }
-
-    if (contentRatings) {
-      url += `contentRating%5B%5D=${contentRatings[0]}&`;
-      url += `contentRating%5B%5D=${contentRatings[1]}&`;
-      url += `contentRating%5B%5D=${contentRatings[2]}&`;
-    }
-
-    if (order) {
-      url += `order%5Brating%5D=desc`;
-    }
+    
 
     return this.http.get(url);
   }
@@ -54,6 +38,6 @@ return this.http.get(url);
 
 }
 
-
+// https://api.mangadex.org/manga?limit=10&title=Attack&includedTagsMode=AND&excludedTagsMode=OR&contentRating%5B%5D=safe&contentRating%5B%5D=suggestive&contentRating%5B%5D=erotica&order%5Brating%5D=desc&includes%5B%5D=manga&includes%5B%5D=cover_art
 
 }

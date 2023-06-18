@@ -11,6 +11,8 @@ import { MangaDetailsComponent } from './Components/manga-details/manga-details.
 import { SearchPageComponent } from './Components/search-page/search-page.component';
 import { BrowseComponent } from './Components/browse/browse.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule,ReactiveFormsModule }   from '@angular/forms';  
+import { LoaderComponent } from './Shared/loader/loader.component';
 
 
 @NgModule({
@@ -20,6 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
     NavlinksComponent,
     LibraryComponent,
     MangaCoverComponent,
+    LoaderComponent,
     MangaDetailsComponent,
     SearchPageComponent,
     BrowseComponent
@@ -28,7 +31,9 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     HttpClientModule,
     RouterModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
