@@ -10,9 +10,12 @@ export class MangaCoverComponent {
 cover:any = '../../../assets/static/One.jpg';
 ngOnInit(){
 console.log(this.mangaData);
+if(this.mangaData.cover){
 
   this.cover = 'https://uploads.mangadex.org/covers/'+this.mangaData.id+'/'+this.mangaData.cover+'.256.jpg';
-console.log(this.cover);
+  console.log(this.cover);
+}
+
 
 }
 

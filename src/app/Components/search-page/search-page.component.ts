@@ -23,11 +23,7 @@ sampledata:any
           }
         }
       )
-      // (rel=>{
-      //   if (rel.type=='cover_art'){
-      //     return rel.attributes?.fileName
-      //   }
-      // })
+     
       return {title:data['attributes']['title']['en'],
       cover: cover,
       id: data.id,

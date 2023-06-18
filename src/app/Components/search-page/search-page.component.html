@@ -3,9 +3,9 @@
 >
   <div class="flex items-center h-[60px] gap-3 justify-between p-4">
     <h1 class="text-3xl transition-all" [ngClass]="{'hidden':searchOpen}">MangaDex</h1>
-    <div class="flex gap-3 w-full transition-all">
-        <input type="text" [ngClass]="{'hidden':!searchOpen}" placeholder="Search..." class="w-full bg-dark_bg  rounded text-gray-300 transition-all h-9">
-      <button class="float-right" [ngClass]="{'hidden':searchOpen}"><i class="fas fa-search"></i></button>
+    <div class="flex gap-3 w-full justify-center transition-all">
+        <input type="text" [ngClass]="{'hidden':!searchOpen}" placeholder="Search..." class="w-1/2 bg-dark_bg  rounded text-gray-300 transition-all h-9">
+      <button class="float-right" [ngClass]="{'hidden':!searchOpen}"><i class="fas fa-search"></i></button>
      
     </div>
   </div>

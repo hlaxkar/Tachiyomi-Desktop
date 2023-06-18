@@ -1,58 +1,30 @@
 import { Component } from '@angular/core';
-
+import sampleData from '../../../assets/top10action.json'
 @Component({
   selector: 'app-library',
   templateUrl: './library.component.html',
   styleUrls: ['./library.component.scss'],
 })
 export class LibraryComponent {
-  data: any = [
-    {
-      title: 'Masamune kun no revenge',
-      cover: 'One.jpg',
-    },
-    {
-      title: 'Kanojo, Okarishimasu',
-      cover: 'Kanojo.jpg',
-    },
-    {
-      title: 'Horimiya',
-      cover: 'Horimiya.jpg',
-    },
-    {
-      title: 'Gokushufudou: The Way of the House Husband',
-      cover: 'Goku.jpg',
-    },
-    {
-      title: 'Masamune kun no revenge',
-      cover: 'One.jpg',
-    },
-    {
-      title: 'Kanojo, Okarishimasu',
-      cover: 'Kanojo.jpg',
-    },
-    {
-      title: 'Horimiya',
-      cover: 'Horimiya.jpg',
-    },
-    {
-      title: 'Gokushufudou: The Way of the House Husband',
-      cover: 'Goku.jpg',
-    },{
-      title: 'Masamune kun no revenge',
-      cover: 'One.jpg',
-    },
-    {
-      title: 'Kanojo, Okarishimasu',
-      cover: 'Kanojo.jpg',
-    },
-    {
-      title: 'Horimiya',
-      cover: 'Horimiya.jpg',
-    },
-    {
-      title: 'Gokushufudou: The Way of the House Husband',
-      cover: 'Goku.jpg',
-    },
-  ];
+  data:any
+ngOnInit(){
+  this.data = sampleData.data.map(data=>{
+    let cover:any
+    data.relationships.forEach(
+      (data)=>{
+        if(data.type=='cover_art'){
+         cover =  data.attributes?.fileName
+        }
+      }
+    )
+   
+    return {title:data['attributes']['title']['en'],
+    cover: cover,
+    id: data.id,
+    res:'256'
+  }
+  })
 }
+}
+  
+ 
