@@ -8,8 +8,9 @@ import { Observable } from 'rxjs';
 })
 export class MangaDetailsComponent {
   constructor(private route: ActivatedRoute) {}
-  mangaId:any
+  // mangaId:any
   ngOnInit(){
-    this.mangaId = this.route.snapshot.paramMap.get('mangaid')
+    // this.mangaId = this.route.snapshot.paramMap.get('mangaid')
+    
   }
 }

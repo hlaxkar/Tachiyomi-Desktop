@@ -6,13 +6,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        navbar_color:"#262930",
-        accent: "#acc9ff",
+        navbar_color:"#272435",
+        accent: "#f3b375",
         clifford: "#da373d",
-        dark_bg: "#1a1a1a",
+        dark_bg: "#21212d",
+        fill: '#382a4e',
+        svgwhite: '#cbc3ce',
         third_bg: "#222222",
-        prime_text: "#c9c8ce",
-        second_text: "#FCF3fd",
+        prime_text: "#e3e0f1",
+        second_text: "#b9b6c7",
         second_bg: "#282828",
         white_bg: "#fafafa",
         yellow: "#fffd01",

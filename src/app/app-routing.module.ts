@@ -18,7 +18,9 @@ const routes: Routes = [
     path:'search', component:SearchPageComponent
   },
   {
-    path:'details/:mangaid', component:MangaDetailsComponent
+    // path:'details/:mangaid', component:MangaDetailsComponent
+    path:'details', component:MangaDetailsComponent
+
   }
 ];
 

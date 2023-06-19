@@ -2,12 +2,12 @@
   class="main-header z-10 bg-dark_bg text-prime_text flex flex-col fixed top-0 left-0"
 >
   <div class="flex items-center h-[60px] gap-3 justify-between p-4">
-    <h1 class="text-3xl transition-all" [ngClass]="{'hidden':searchOpen}">MangaDex</h1>
+    <h1 class="text-3xl transition-all md:inline" [ngClass]="{'hidden':searchOpen}">MangaDex</h1>
     <div class="flex gap-3 w-full justify-center transition-all">
       <form [formGroup]="searchForm" (ngSubmit)="getmanga(this.searchForm.controls['search'].value)">
 
-        <input type="text" formControlName="search" [ngClass]="{'hidden':!searchOpen}" placeholder="Search..." class="w-1/2 bg-dark_bg  rounded text-gray-300 transition-all h-9">
-      <button class="float-right" type="submit" [ngClass]="{'hidden':!searchOpen}"><i class="fas fa-search"></i></button>
+        <input type="text" formControlName="search" [ngClass]="{'hidden':!searchOpen}" placeholder="Search..." class="w-1/2 bg-dark_bg  rounded text-gray-300 transition-all h-9  md:inline">
+      <button class="float-right md:inline" type="submit" [ngClass]="{'hidden':!searchOpen}"><i class="fas fa-search"></i></button>
      
       </form>
     </div>

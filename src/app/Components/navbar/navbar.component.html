@@ -4,7 +4,7 @@
         <ul
           class="navlinks flex md:flex-col gap-4 justify-evenly items-center p-3"
         >
-          <li routerLink="" class="selected">
+          <li routerLink="" routerLinkActive="selected" [routerLinkActiveOptions]="{ exact: true }">
             
             <span><img src="./assets/Collection.svg" alt="" srcset="" class="nav-icon" /></span>
             <p>Library</p>
@@ -19,7 +19,7 @@
             <span><img src="./assets/NewRelease.svg" alt="Updates" srcset="" class="nav-icon" /></span>
             <p>Updates</p>
           </li>
-          <li routerLink="browse">
+          <li routerLink="browse" routerLinkActive="selected" >
             
             <span><img src="./assets/Explore.svg" alt="" srcset="" class="nav-icon" /></span>
             <p> Browse</p>
