@@ -28,7 +28,7 @@
   <app-loader *ngIf="isLoading"></app-loader>
     
   <app-manga-cover
-    [routerLink]="['/details', manga.id]"
+    
     *ngFor="let manga of searchResults; index as i"
     [mangaData]="manga"
     class="w-[150px] text-white border border-red-100 "
