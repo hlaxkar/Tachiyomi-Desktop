@@ -1,0 +1,15 @@
+.download-svg{
+    background-image: url('../../../assets/Download.svg');
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: all;
+    
+}
+.download-svg:hover{
+    
+        opacity: 0.8;
+        
+    
+}
