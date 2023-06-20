@@ -2,18 +2,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:wght@300;400&display=swap');
+
 body::-webkit-scrollbar {
     display: none;
+    
   }
 $accent: #f3b375;
+$btn_bg:#393945;
 $dark_bg:#21212d;
 $navbar_color: #272435;
 $fill: #382a4e;
 $second_text:#b9b6c7;
 $svgwhite: #cbc3ce;
 $text_col:#e3e0f1;
+$inter:'Inter', sans-serif;
 body{
     transition: 0.5s ease-in;
+    // font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+font-weight: 400;
 }
 
 .main-header{

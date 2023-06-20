@@ -20,7 +20,7 @@ module.exports = {
         yellow: "#fffd01",
         black_text: "#14121E",
         gray_text: "#8b8b8b",
-        btn_bg: "#2f2f2f",
+        btn_bg: "#393945",
         dropcolor: "rgb(11 10 26 / 40%)",
       },
     },

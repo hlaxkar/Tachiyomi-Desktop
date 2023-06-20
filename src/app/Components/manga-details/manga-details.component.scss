@@ -1,3 +1,5 @@
+@import '../../../styles.scss';
+
 .download-svg{
     background-image: url('../../../assets/Download.svg');
     aspect-ratio: 1;
@@ -17,7 +19,38 @@
 .big-cover{
     background-image: url('../../../assets/static/One.jpg');
     background-position: top;
-    background-size: cover;
-  
-    
+    background-size: cover;   
+    position: relative;
+  *{
+    z-index: 100;
+  }
+
+}
+.big-cover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+   
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+    @apply
+    bg-gradient-to-t
+    from-dark_bg
+
+}
+.tag{
+    @apply
+    px-4
+    py-2
+    text-prime_text
+    bg-btn_bg
+    rounded-lg
+    cursor-pointer
+    hover:opacity-70
+    transition-all
+    ease-in
+
 }
