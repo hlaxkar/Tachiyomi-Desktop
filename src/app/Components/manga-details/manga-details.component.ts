@@ -7,6 +7,8 @@ import { Observable } from 'rxjs';
   styleUrls: ['./manga-details.component.scss']
 })
 export class MangaDetailsComponent {
+
+  isScrolled:Boolean=false;
   constructor(private route: ActivatedRoute) {}
   // mangaId:any
   ngOnInit(){

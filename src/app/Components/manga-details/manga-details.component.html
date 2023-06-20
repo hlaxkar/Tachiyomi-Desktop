@@ -1,11 +1,12 @@
 <div
-  class="topnavbar fixed top-0 md:left-[9%] bg-dark_bg text-prime_text w-screen h-10 text-xl"
->
+  class="topnavbar fixed top-0 md:left-[9%] bg-transparent text-prime_text w-screen h-10 text-xl"
+[ngClass]="{'bg-dark_bg': 'isScrolled'}"
+  >
   Yesterday Wa...
 </div>
 <div class="flex flex-col md:flex-row">
   <div class="manga-details w-full mt-10">
-    <div class="flex">
+    <div class="flex big-cover">
       <div
         class="cover w-[100px] shadow-md rounded-sm overflow-hidden cursor-pointer"
       >
@@ -38,7 +39,7 @@
   </div>
   <div class="chapter-container w-full mt-10">
     <ul class="chapterlist">
-      <li *ngFor="let k of [1, 2, 3, 4]; index as i" class="flex">
+      <li *ngFor="let k of [1, 2, 3, 4]; index as i" class="flex text-prime_text">
         <div>Vol2 Ch.001</div>
       <span class="download-svg">         
         </span>
