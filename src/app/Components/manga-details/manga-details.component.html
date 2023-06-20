@@ -8,7 +8,7 @@
   <div class="manga-details w-full mt-10">
     <div class="flex big-cover">
       <div
-        class="cover w-[100px] shadow-md rounded-sm overflow-hidden cursor-pointer"
+        class="cover w-[100px] h-[150px] shadow-md rounded-sm overflow-hidden cursor-pointer"
       >
         <img src="./assets/static/One.jpg" alt="" srcset="" />
       </div>
@@ -38,9 +38,12 @@
     </div>
   </div>
   <div class="chapter-container w-full mt-10">
-    <ul class="chapterlist">
-      <li *ngFor="let k of [1, 2, 3, 4]; index as i" class="flex text-prime_text">
-        <div>Vol2 Ch.001</div>
+    <ul class="chapterlist transition-all">
+      <li *ngFor="let k of [1, 2, 3, 4,1, 2, 3, 4]; index as i" class="flex text-prime_text w-full justify-between p-4 items-center hover:bg-second_bg cursor-pointer transition-all ease-in  ">
+        <div>
+          <p>Vol.02 Ch.00{{k}}</p>
+          <p>5/11/20 ▪ Page:3</p>
+          </div>
       <span class="download-svg">         
         </span>
       </li>
