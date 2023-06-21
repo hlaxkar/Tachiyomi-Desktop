@@ -1,29 +1,30 @@
 <div
-  class="topnavbar fixed top-0 md:left-[9%] bg-transparent text-prime_text w-screen h-10 text-xl md:bg-dark_bg"
-[ngClass]="{'bg-dark_bg': 'isScrolled'}"
-  >
+  class="topnavbar fixed top-0 md:left-[9%] text-prime_text w-screen h-10 text-xl md:bg-dark_bg z-50"
+  [ngClass]="{'bg-dark_bg': '!isScrolled'}"
+>
   Yesterday Wa...
 </div>
 <div class="flex flex-col md:flex-row">
-  <div class="manga-details w-full">
-    <div class="flex big-cover pt-10">
+  <div class="manga-details w-full md:mt-10">
+    <div class="flex big-cover pt-32 px-5 items-center">
       <div
-        class="cover w-[100px] h-[150px] shadow-md rounded-sm overflow-hidden cursor-pointer"
+        class="cover w-[150px] shadow-md rounded-sm overflow-hidden cursor-pointer"
       >
         <img src="./assets/static/One.jpg" alt="" srcset="" />
       </div>
-      <div>
-        <div class="mangaTitle">Yerterday Wo Utatte</div>
+      <div class="w-full px-3">
+        <div class="mangaTitle text-2xl">Yesterday Wo Utatte</div>
         <p class="authorName">TOUME Kei</p>
         <span
+        class="flex gap-2"
           ><p class="status">Ongoing</p>
           <p class="source">MangaDex (EN)</p>
         </span>
       </div>
     </div>
-    <div class="flex">
-      <div>In Library</div>
-      <div>WebView</div>
+    <div class="flex text-center h-11 items-center">
+      <div class="w-full">In Library</div>
+      <div class="w-full">WebView</div>
     </div>
     <div class="descContainer text-second_text p-3">
       <p>
@@ -36,24 +37,42 @@
         delectus dicta explicabo ex? Laborum?
       </p>
     </div>
-    <div class="tags p-3"><ul class="flex gap-2 flex-wrap">
-      <li class="tag" *ngFor="let tag of ['Romance','Drama','Seinen','Comedy','Slice of Life','Action']; index as i">{{tag}}</li>
-     
-    </ul></div>
+    <div class="tags p-3">
+      <ul class="flex gap-2 flex-wrap">
+        <li
+          class="tag"
+          *ngFor="
+            let tag of [
+              'Romance',
+              'Drama',
+              'Seinen',
+              'Comedy',
+              'Slice of Life',
+              'Action'
+            ];
+            index as i
+          "
+        >
+          {{ tag }}
+        </li>
+      </ul>
+    </div>
   </div>
   <div class="chapter-container w-full mt-10">
     <p class="text-prime_text p-4">118 Chapters</p>
     <ul class="chapterlist transition-all">
-      <li *ngFor="let k of [1, 2, 3, 4,1, 2, 3, 4]; index as i" class="flex text-prime_text w-full justify-between items-center hover:backdrop-brightness-90 cursor-pointer transition-all ease-in p-4 ">
+      <li
+        *ngFor="let k of [1, 2, 3, 4, 1, 2, 3, 4, 1, 1, 5]; index as i"
+        class="flex text-prime_text w-full justify-between items-center hover:backdrop-brightness-90 cursor-pointer transition-all ease-in p-4"
+      >
         <div>
-          <p>Vol.02 Ch.00{{k}}</p>
+          <p>Vol.02 Ch.00{{ k }}</p>
           <div>
-            <span class="text-xs">5/11/20 </span> ▪ <span class="text-xs text-second_text opacity-50"> Page: 3 </span>
+            <span class="text-xs">5/11/20 </span> ▪
+            <span class="text-xs text-second_text opacity-50"> Page: 3 </span>
           </div>
-            
-          </div>
-      <span class="download-svg">         
-        </span>
+        </div>
+        <span class="download-svg"> </span>
       </li>
     </ul>
   </div>
