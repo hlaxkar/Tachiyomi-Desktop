@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-tachi-svg-icons',
@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./tachi-svg-icons.component.scss']
 })
 export class TachiSvgIconsComponent {
-
+@Input() svgName:string ='';
+ngOnInit(){
+  this.svgName = this.svgName.toLowerCase()
+}
 }

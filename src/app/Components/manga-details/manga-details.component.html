@@ -24,10 +24,12 @@
         </span>
       </div>
     </div>
-    <div class="flex text-center h-11 items-center">
-      <div class="w-full">In Library</div>
-      <div class="w-full flex flex-col">
-       <app-tachi-svg-icons class="w-5 h-2 block"></app-tachi-svg-icons>
+    <div class="flex text-center items-center py-3">
+      <div class="w-full flex flex-col items-center  cursor-pointer">
+        <i class="fa-solid fa-heart mb-1 text-lg"></i>
+       <span>In Library</span> </div>
+      <div class="w-full flex flex-col items-center cursor-pointer">
+       <app-tachi-svg-icons [svgName]="'Webview'" class="w-6 h-auto block mb-1"></app-tachi-svg-icons>
       <div>WebView</div>  
       
       </div>
