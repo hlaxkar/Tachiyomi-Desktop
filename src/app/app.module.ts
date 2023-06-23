@@ -13,6 +13,7 @@ import { BrowseComponent } from './Components/browse/browse.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule,ReactiveFormsModule }   from '@angular/forms';  
 import { LoaderComponent } from './Shared/loader/loader.component';
+import { TachiSvgIconsComponent } from './Shared/tachi-svg-icons/tachi-svg-icons.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { LoaderComponent } from './Shared/loader/loader.component';
     LoaderComponent,
     MangaDetailsComponent,
     SearchPageComponent,
-    BrowseComponent
+    BrowseComponent,
+    TachiSvgIconsComponent
   ],
   imports: [
     BrowserModule,
