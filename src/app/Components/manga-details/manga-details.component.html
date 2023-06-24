@@ -1,9 +1,17 @@
 <!-- TopBar -->
 <div
-  class="topnavbar fixed top-0 md:left-[9%] text-prime_text w-screen h-10 text-xl md:bg-dark_bg z-50"
-  [ngClass]="{'bg-dark_bg': '!isScrolled'}"
+  class="topnavbar fixed top-0 md:left-[9vw] text-prime_text md:w-[91vw] w-screen h-10 text-xl md:bg-dark_bg z-50 flex justify-between m-auto"
+  [ngClass]="{'bg-dark_bg': isScrolled}"
 >
-  Yesterday Wa...
+
+  <mat-icon class="">arrow_back</mat-icon>
+  <span class="hidden">Yesterday Wa Utatte</span>
+  <div>
+    <mat-icon>download</mat-icon>
+    <mat-icon>filter_list</mat-icon>
+    <mat-icon>more_vert</mat-icon>
+  </div>
+ 
 </div>
 <div class="flex flex-col md:flex-row">
   <!-- Manga Details -->
