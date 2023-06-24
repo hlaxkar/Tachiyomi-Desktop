@@ -1,15 +1,22 @@
 <!-- TopBar -->
 <div
-  class="topnavbar fixed top-0 md:left-[9vw] text-prime_text md:w-[91vw] w-screen h-10 text-xl md:bg-dark_bg z-50 flex justify-between m-auto"
+  class="topnavbar fixed top-0 md:left-[9vw] text-prime_text h-10 text-xl md:bg-dark_bg z-50 flex justify-between m-auto"
   [ngClass]="{'bg-dark_bg': isScrolled}"
 >
 
   <mat-icon class="">arrow_back</mat-icon>
   <span class="hidden">Yesterday Wa Utatte</span>
-  <div>
+  <div class="flex gap-10">
+    <button>
     <mat-icon>download</mat-icon>
-    <mat-icon>filter_list</mat-icon>
-    <mat-icon>more_vert</mat-icon>
+
+    </button><button>
+      <mat-icon>filter_list</mat-icon>
+
+    </button><button>
+
+      <mat-icon>more_vert</mat-icon>
+    </button>
   </div>
  
 </div>
@@ -23,7 +30,7 @@
         <img src="./assets/static/One.jpg" alt="" srcset="" />
       </div>
       <div class="w-full px-4 text-second_text">
-        <div class="mangaTitle text-2xl text-prime_text">Yesterday Wo Utatte</div>
+        <div class="mangaTitle text-3xl text-prime_text">Yesterday wo Utatte</div>
         <p class="authorName">TOUME Kei</p>
         <span
         class="flex gap-2"

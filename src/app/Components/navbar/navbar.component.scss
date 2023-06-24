@@ -1,6 +1,7 @@
 @import '../../../styles.scss';
 nav{
     width: 100vw;
+   
     @media (min-width:768px) {
         width: 9vw
         
@@ -13,13 +14,7 @@ nav{
 
 }
 
-@media (min-width:768px) {
-        
-        nav{
-            width: max(100px,9%);
-        }
-    
-}
+
 .navlinks>li{
     cursor: pointer;
     transition: all;

@@ -57,3 +57,8 @@
 .chapter-container::-webkit-scrollbar{
 display: none;
 }
+.topnavbar{
+  @apply
+  w-screen
+  md:w-[91vw]
+}
