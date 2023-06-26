@@ -17,8 +17,8 @@ Welcome to the Tachiyomi-Web! This is an Angular and Electron-based application 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/manga-reader-app.git`
-2. Navigate to the project directory: `cd manga-reader-app`
+1. Clone the repository: `git clone https://github.com/hlaxkar/Tachiyomi-Desktop.git`
+2. Navigate to the project directory: `cd Tachiyomi-Desktop`
 3. Install the dependencies: `npm install`
 
 ## Development Server
@@ -60,6 +60,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions, suggestions, or issues, please feel free to contact us at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions, suggestions, or issues, please feel free to contact us at [hlaxkar@gmail.com](mailto:hlaxkar@gmail.com).
 
 Happy manga reading!
