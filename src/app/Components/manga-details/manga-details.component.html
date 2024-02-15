@@ -1,52 +1,51 @@
 <!-- TopBar -->
 <div
-  class="topnavbar fixed top-0 md:left-[9vw] text-prime_text h-10 text-xl md:bg-dark_bg z-50 flex justify-between m-auto"
-  [ngClass]="{'bg-transparent': isScrolled}"
+  class="topnavbar sticky top-0  text-prime_text h-auto text-xl md:bg-dark_bg w-full p-4 z-50 flex justify-between m-auto"
+  [ngClass]="{ 'bg-transparent': isScrolled }"
 >
-
   <mat-icon class="">arrow_back</mat-icon>
   <span class="hidden">Yesterday Wa Utatte</span>
   <div class="flex gap-10">
     <button>
-    <mat-icon>download</mat-icon>
-
-    </button><button>
-      <mat-icon>filter_list</mat-icon>
-
-    </button><button>
-
+      <mat-icon>download</mat-icon></button
+    ><button>
+      <mat-icon>filter_list</mat-icon></button
+    ><button>
       <mat-icon>more_vert</mat-icon>
     </button>
   </div>
- 
 </div>
-<div class="flex flex-col md:flex-row">
+<div class="flex flex-col md:flex-row md:mt-10">
   <!-- Manga Details -->
-  <div class="manga-details w-full md:mt-10 md:h-screen ">
-    <div class="flex big-cover pt-32 px-5 items-center">
+  <div class="manga-details w-full md:h-screen md:overflow-scroll">
+    <div class="flex big-cover pt-32 px-5 items-center ">
       <div
-        class="cover w-[150px] max-h-[250px] md:w-[256px]  shadow-md rounded-sm overflow-hidden cursor-pointer"
+        class="cover w-[150px] max-h-[250px] md:w-[256px] shadow-md rounded-sm overflow-hidden cursor-pointer"
       >
         <img src="./assets/static/One.jpg" alt="" srcset="" />
       </div>
       <div class="w-full px-4 text-second_text">
-        <div class="mangaTitle text-3xl text-prime_text">Yesterday wo Utatte</div>
+        <div class="mangaTitle text-3xl text-prime_text">
+          Yesterday wo Utatte
+        </div>
         <p class="authorName">TOUME Kei</p>
-        <span
-        class="flex gap-2"
+        <span class="flex gap-2"
           ><p class="status">Ongoing</p>
           <p class="source">MangaDex (EN)</p>
         </span>
       </div>
     </div>
     <div class="flex text-center items-center py-3">
-      <div class="w-full flex flex-col items-center  cursor-pointer">
-        <i class="fa-solid fa-heart mb-1 text-lg"></i>
-       <span>In Library</span> </div>
       <div class="w-full flex flex-col items-center cursor-pointer">
-       <app-tachi-svg-icons [svgName]="'Webview'" class="w-6 h-auto block mb-1"></app-tachi-svg-icons>
-      <div>WebView</div>  
-      
+        <i class="fa-solid fa-heart mb-1 text-lg"></i>
+        <span>In Library</span>
+      </div>
+      <div class="w-full flex flex-col items-center cursor-pointer">
+        <app-tachi-svg-icons
+          [svgName]="'Webview'"
+          class="w-6 h-auto block mb-1"
+        ></app-tachi-svg-icons>
+        <div>WebView</div>
       </div>
     </div>
     <div class="descContainer text-second_text p-3">
@@ -83,7 +82,7 @@
   </div>
 
   <!-- Chapter Container -->
-  <div class="chapter-container w-full mt-10 md:overflow-scroll h-screen ">
+  <div class="chapter-container w-full md:overflow-scroll h-screen">
     <p class="text-prime_text p-4">118 Chapters</p>
     <ul class="chapterlist transition-all">
       <li

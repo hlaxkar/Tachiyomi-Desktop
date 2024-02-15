@@ -4,10 +4,14 @@
   "main": "main.js",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    
+    
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "start": "concurrently \"npm run start:electron\" \"npm run start:angular\"",
+    "start:electron": "wait-on tcp:4200 && electron .",
+    "start:angular": "ng serve",
+    "build": "ng build && electron-builder",
     "electron": "ng build && electron ."
   },
   "private": true,
