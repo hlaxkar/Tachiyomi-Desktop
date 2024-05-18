@@ -36,14 +36,14 @@
       </div>
     </div>
     <div class="flex text-center items-center py-3">
-      <div class="w-full flex flex-col items-center cursor-pointer">
+      <div class="w-full flex flex-col items-center cursor-pointer text-[#6a6979] transition-all ease-in hover:text-white">
         <i class="fa-solid fa-heart mb-1 text-lg"></i>
         <span>In Library</span>
       </div>
-      <div class="w-full flex flex-col items-center cursor-pointer">
+      <div class="w-full flex transition-all ease-in text-[#6a6979] hover:text-white flex-col items-center cursor-pointer group">
         <app-tachi-svg-icons
           [svgName]="'Webview'"
-          class="w-6 h-auto block mb-1"
+          class="w-6 h-auto block mb-1 fill-[#6a6979] group-hover:fill-white transition-all ease-in"
         ></app-tachi-svg-icons>
         <div>WebView</div>
       </div>
@@ -96,7 +96,10 @@
             <span class="text-xs text-second_text opacity-50"> Page: 3 </span>
           </div>
         </div>
-        <span class="download-svg"> </span>
+        <span class="download-svg"><app-tachi-svg-icons
+          [svgName]="'download_btn'"
+          class="w-6 h-auto block mb-1 opacity-75 hover:opacity-100 transition-all ease-in"
+        ></app-tachi-svg-icons> </span>
       </li>
     </ul>
   </div>

@@ -29,16 +29,19 @@ nav{
 }
 .navlinks>li:hover{
     opacity: 0.5;
-    background-color: $dark_bg;
+    background-color: $accent;
     
 }
 .nav-icon{
     height: 30px;
 }
 .selected{
-    background-color: $accent;
-    color: $accent;
-    svg{
-        fill: $accent
+    .nav-icon{
+        background-color: $accent;
+        svg{
+            fill: $accent
+        }
     }
+    color: $accent;
+    
 }

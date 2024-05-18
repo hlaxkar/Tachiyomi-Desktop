@@ -10,9 +10,9 @@ export class MangaDetailsComponent {
 
   isScrolled:Boolean=false;
   constructor(private route: ActivatedRoute) {}
-  // mangaId:any
+  mangaId:any
   ngOnInit(){
-    // this.mangaId = this.route.snapshot.paramMap.get('mangaid')
-    
+    this.mangaId = this.route.snapshot.paramMap.get('mangaid')
+    console.log(this.mangaId)
   }
 }
