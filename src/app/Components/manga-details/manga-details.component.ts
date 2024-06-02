@@ -21,7 +21,7 @@ export class MangaDetailsComponent {
         title: {
           en: '',
         },
-        status:'',
+        status: '',
         description: {
           en: '',
         },
@@ -32,10 +32,12 @@ export class MangaDetailsComponent {
   isScrolled: Boolean = false;
   mangaId: any;
   mangaData: any;
-  mangaAuthor='';
+  mangaAuthor = '';
   mangaCover: any;
-  coverUrl:any;
-  tags:any;
+  coverUrl: any;
+  tags: any;
+  chapterList: any;
+  totalchaps:any;
   ngOnInit() {
     this.mangaId = this.route.snapshot.paramMap.get('mangaid');
     const navigation = this.router.getCurrentNavigation();
@@ -46,8 +48,15 @@ export class MangaDetailsComponent {
       this.magnadex.getMangaDetails(this.mangaId).subscribe({
         next: (data: any) => {
           this.arrangeData(data.data);
-          console.log('From Api:',this.mangaData);
-          
+          this.magnadex.getChapterList(this.mangaId).subscribe({
+            next:(data)=>{
+              this.chapterList = data.data
+              this.totalchaps = data.total
+            },
+            error:(error)=>{
+              console.log(error);
+            }
+          })
         },
         error: (error) => {
           console.log(error);
@@ -58,18 +67,21 @@ export class MangaDetailsComponent {
 
   arrangeData(data: any) {
     this.mangaData = data;
-    this.mangaAuthor = data.relationships.find((rel: any) => rel.type === 'author').attributes.name;
-    this.mangaCover = data.relationships.find((rel: any) => rel.type === 'cover_art').attributes.fileName;
-    if(this.mangaCover){
-      this.coverUrl =  'https://uploads.mangadex.org/covers/' +
-      this.mangaId +
-      '/' +
-      this.mangaCover +
-      '.512.jpg';
-    }else{
+    this.mangaAuthor = data.relationships.find(
+      (rel: any) => rel.type === 'author'
+    ).attributes.name;
+    this.mangaCover = data.relationships.find(
+      (rel: any) => rel.type === 'cover_art'
+    ).attributes.fileName;
+    if (this.mangaCover) {
+      this.coverUrl =
+        'https://uploads.mangadex.org/covers/' +
+        this.mangaId +
+        '/' +
+        this.mangaCover +
+        '.512.jpg';
+    } else {
       this.coverUrl = '../../assets/cover_error.svg';
     }
-
-
   }
 }

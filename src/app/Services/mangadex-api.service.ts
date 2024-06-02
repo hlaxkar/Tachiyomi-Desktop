@@ -8,24 +8,14 @@ import { Observable } from 'rxjs';
 export class MangadexApiService {
   private sampleData: any;
   constructor(private http: HttpClient) {}
-  private url = `https://api.mangadex.org/manga?`;
+  private url = `https://api.mangadex.dev/`;
   private imageurl = 'https://uploads.mangadex.org/covers/';
   getSample() {
-    this.http.get('src/assets/static/top10action.json').subscribe((res) => {
-      this.sampleData = res;
-    });
-    return this.sampleData;
+    return this.http.get('src/assets/static/top10action.json');
   }
 
   searchManga(title?: string): Observable<any> {
-    let url =
-      this.url +
-      '&includes%5B%5D=manga&includes%5B%5D=cover_art&order%5Brating%5D=desc&limit=20&';
-
-    if (title) {
-      url += `title=${title}`;
-    }
-
+    const url = `${this.url}manga?includes[]=manga&includes[]=cover_art&order[rating]=desc&limit=20${title ? `&title=${title}` : ''}`;
     return this.http.get(url);
   }
 
@@ -34,11 +24,16 @@ export class MangadexApiService {
     return this.http.get(url);
   }
   getMangaDetails(mangaid: string): Observable<any> {
-    // https://api.mangadex.org/manga/d1a9fdeb-f713-407f-960c-8326b586e6fd?includes%5B%5D=manga&includes%5B%5D=cover_art&includes%5B%5D=author&includes%5B%5D=artist&includes%5B%5D=tag&includes%5B%5D=creator
-
-    let url = `https://api.mangadex.org/manga/${mangaid}?includes%5B%5D=manga&includes%5B%5D=cover_art&includes%5B%5D=author&includes%5B%5D=artist&includes%5B%5D=tag&includes%5B%5D=creator`;
+    let url = `${this.url}manga/${mangaid}?includes%5B%5D=manga&includes%5B%5D=cover_art&includes%5B%5D=author&includes%5B%5D=artist&includes%5B%5D=tag&includes%5B%5D=creator`;
+    return this.http.get(url);
+  }
+  getChapterList(mangaid: string): Observable<any> {
+    let url = `${this.url}manga/${mangaid}/feed?limit=100&translatedLanguage%5B%5D=en&contentRating%5B%5D=safe&contentRating%5B%5D=suggestive&contentRating%5B%5D=erotica&contentRating%5B%5D=pornographic&includeFutureUpdates=1&order%5BcreatedAt%5D=asc&order%5BupdatedAt%5D=asc&order%5BpublishAt%5D=asc&order%5BreadableAt%5D=asc&order%5Bvolume%5D=asc&order%5Bchapter%5D=asc&includes%5B%5D=scanlation_group&includeEmptyPages=0&includeFuturePublishAt=0&includeExternalUrl=0`;
+    return this.http.get(url);
+  }
+  getPopularManga(): Observable<any> {
+    let url = `${this.url}manga?includes[]=cover_art&includes[]=artist&includes[]=author&order[followedCount]=desc&contentRating[]=safe&contentRating[]=suggestive&hasAvailableChapters=true&limit=20`;
     return this.http.get(url);
   }
 
-  // https://api.mangadex.org/manga?limit=10&title=Attack&includedTagsMode=AND&excludedTagsMode=OR&contentRating%5B%5D=safe&contentRating%5B%5D=suggestive&contentRating%5B%5D=erotica&order%5Brating%5D=desc&includes%5B%5D=manga&includes%5B%5D=cover_art
 }

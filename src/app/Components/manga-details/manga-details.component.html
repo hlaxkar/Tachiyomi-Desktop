@@ -73,17 +73,17 @@
 
   <!-- Chapter Container -->
   <div class="chapter-container w-full md:overflow-scroll h-screen">
-    <p class="text-prime_text p-4">118 Chapters</p>
+    <p class="text-prime_text p-4">{{totalchaps}}</p>
     <ul class="chapterlist transition-all">
       <li
-        *ngFor="let k of [1, 2, 3, 4, 1, 2, 3, 4, 1, 1, 5]; index as i"
+        *ngFor="let chapter of chapterList; index as i"
         class="flex text-prime_text w-full justify-between items-center hover:backdrop-brightness-90 cursor-pointer transition-all ease-in p-4"
       >
         <div>
-          <p>Vol.02 Ch.00{{ k }}</p>
+          <p>Vol. {{chapter.attributes.volume}} Ch.{{chapter.attributes.chapter}} </p>
           <div>
-            <span class="text-xs">5/11/20 </span> ▪
-            <span class="text-xs text-second_text opacity-50"> Page: 3 </span>
+            <span class="text-xs">{{chapter.attributes.publishAt | date :'short'}}  </span> ▪
+            <span class="text-xs text-second_text opacity-50"> {{chapter.relationships[0].attributes?.name? ? chapter.relationships[0].attributes?.name? : ''}}  </span>
           </div>
         </div>
         <span class="download-svg"

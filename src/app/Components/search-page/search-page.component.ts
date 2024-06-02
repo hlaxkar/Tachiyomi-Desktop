@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MangadexApiService } from 'src/app/Services/mangadex-api.service';
 import {
   MangaModel,
@@ -11,7 +11,7 @@ import { FormControl, FormGroup } from '@angular/forms';
   templateUrl: './search-page.component.html',
   styleUrls: ['./search-page.component.scss'],
 })
-export class SearchPageComponent {
+export class SearchPageComponent implements OnInit{
   searchForm: FormGroup = new FormGroup({
     search: new FormControl(''),
   });
@@ -19,44 +19,51 @@ export class SearchPageComponent {
   searchResults: any;
   isLoading: Boolean = false;
 
-  constructor(private mangadexApiService: MangadexApiService) {
-    
+  constructor(private mangadexApiService: MangadexApiService) {}
+  ngOnInit(): void {
+    this.getPouplarManga();
   }
-
   searchOpen: boolean = false;
 
   getmanga(title: string) {
-    this.isLoading=true;
+    this.isLoading = true;
 
-    this.mangadexApiService.searchManga(title)
-    .subscribe((fetchedData: any) => {
+    this.mangadexApiService.searchManga(title).subscribe((fetchedData: any) => {
       console.log(fetchedData);
 
-      this.isLoading=false;
-      this.searchResults =  this.formatData(fetchedData.data);
-
-    }
-    );
-  }
-
-  log(data:any){console.log(data);
-  }
-formatData(data:any){
-  return data.map((data:any) => {
-    let cover: any;
-    data.relationships.forEach((data:any) => {
-      if (data.type == 'cover_art') {
-        cover = data.attributes?.fileName;
-      }
+      this.isLoading = false;
+      this.searchResults = this.formatData(fetchedData.data);
     });
+  }
+  getPouplarManga() {
+    this.isLoading = true;
 
-    return {
-      title: data['attributes']['title']['en'],
-      cover: cover,
-      id: data.id,
-      res: '256',
-    };
-  });
-}
-  
+    this.mangadexApiService.getPopularManga().subscribe((fetchedData: any) => {
+      console.log(fetchedData);
+
+      this.isLoading = false;
+      this.searchResults = this.formatData(fetchedData.data);
+    });
+  }
+
+  log(data: any) {
+    console.log(data);
+  }
+  formatData(data: any) {
+    return data.map((data: any) => {
+      let cover: any;
+      data.relationships.forEach((data: any) => {
+        if (data.type == 'cover_art') {
+          cover = data.attributes?.fileName;
+        }
+      });
+
+      return {
+        title: data['attributes']['title']['en'],
+        cover: cover,
+        id: data.id,
+        res: '256',
+      };
+    });
+  }
 }
