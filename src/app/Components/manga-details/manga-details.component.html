@@ -83,7 +83,7 @@
           <p>Vol. {{chapter.attributes.volume}} Ch.{{chapter.attributes.chapter}} </p>
           <div>
             <span class="text-xs">{{chapter.attributes.publishAt | date :'short'}}  </span> ▪
-            <span class="text-xs text-second_text opacity-50"> {{chapter.relationships[0].attributes?.name? ? chapter.relationships[0].attributes?.name? : ''}}  </span>
+            <span class="text-xs text-second_text opacity-50"> {{chapter.relationships[0].attributes?.name ? chapter.relationships[0].attributes?.name : ''}}  </span>
           </div>
         </div>
         <span class="download-svg"
