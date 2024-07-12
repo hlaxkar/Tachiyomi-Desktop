@@ -5,6 +5,7 @@ import {BrowseComponent} from '../app/Components/browse/browse.component'
 import { LibraryComponent } from './Components/library/library.component';
 import { SearchPageComponent } from './Components/search-page/search-page.component';
 import { MangaDetailsComponent } from './Components/manga-details/manga-details.component';
+import { HistoryComponent } from './history/history.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,9 @@ const routes: Routes = [
   },
   {
     path:'search', component:SearchPageComponent
+  },
+  {
+    path:'history', component:HistoryComponent
   },
   {
     path:'details/:mangaid', component:MangaDetailsComponent

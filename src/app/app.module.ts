@@ -15,7 +15,8 @@ import { FormsModule,ReactiveFormsModule }   from '@angular/forms';
 import { LoaderComponent } from './Shared/loader/loader.component';
 import { TachiSvgIconsComponent } from './Shared/tachi-svg-icons/tachi-svg-icons.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatIconModule} from '@angular/material/icon'
+import {MatIconModule} from '@angular/material/icon';
+import { HistoryComponent } from './history/history.component'
 // import {MatIconModule} from '@angular/material'
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {MatIconModule} from '@angular/material/icon'
     MangaDetailsComponent,
     SearchPageComponent,
     BrowseComponent,
-    TachiSvgIconsComponent
+    TachiSvgIconsComponent,
+    HistoryComponent
   ],
   imports: [
     BrowserModule,
