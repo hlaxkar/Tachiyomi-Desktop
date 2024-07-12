@@ -1,32 +1,36 @@
 <div>
-    <div class="topbar flex gap-1 justify-between">
+    <div class="topbar p-5 flex gap-1 justify-between">
         <span>
-            <h1 class="text-3xl">History</h1>
+            <h1 class="text-3xl ">History</h1>
         </span>
         <div class="flex gap-1">
-            <i class="fa-search fa-solid"></i>
-            <i class="fa-trash fa-solid"></i>
+            <i class="text-xl fa-search fa-solid px-6"></i>
+            <i class="fa-trash text-xl fa-solid "></i>
         </div>
     </div>
 
     <div class="main p-3">
-        <div>
-            <h1>4 days ago</h1>
-            <div class="flex flex-row w-full gap-2">
-                <div class="w-[100px] rounded overflow-hidden">
-                    <img src="assets/static/Horimiya.jpg" alt="Cover image">
-                </div>
-                <div class="flex flex-col gap-1">
-                    <h2>Kanojo Okarishimasu</h2>
-                    <span class="flex gap-1 flex-row">
-                        <span>Ch.4</span>
-                        <span>12.22 AM</span>
-                    </span>
-                </div>
-                <div class="delete">
-                    <i class="fa-trash fa-solid"></i>
+        <div *ngFor="let item of [1,2,3]; index as i">
+            <h1 class="py-4">4 days ago</h1>
+            <div class="flex gap-2 flex-col md:flex-row ">
+
+                <div *ngFor="let k of [1,1]; index  as t" class="flex flex-row w-full gap-2 items-center">
+                    <div class="w-[100px] rounded overflow-hidden">
+                        <img src="assets/static/Horimiya.jpg" alt="Cover image">
+                    </div>
+                    <div class="flex flex-col gap-1 flex-grow">
+                        <h2>Kanojo Okarishimasu</h2>
+                        <span class="flex gap-1 flex-row">
+                            <span>Ch.4</span>
+                            <span>12.22 AM</span>
+                        </span>
+                    </div>
+                    <div class="delete px-3">
+                        <i class="fa-trash fa-solid"></i>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
