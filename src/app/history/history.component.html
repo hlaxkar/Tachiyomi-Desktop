@@ -12,21 +12,21 @@
     <div class="main p-3">
         <div *ngFor="let item of [1,2,3]; index as i">
             <h1 class="py-4">4 days ago</h1>
-            <div class="flex gap-2 flex-col md:flex-row ">
+            <div class="flex gap-4 flex-col md:flex-row ">
 
                 <div *ngFor="let k of [1,1]; index  as t" class="flex flex-row w-full gap-2 items-center">
-                    <div class="w-[100px] rounded overflow-hidden">
+                    <div class="w-[85px] md:w-[100px] rounded overflow-hidden">
                         <img src="assets/static/Horimiya.jpg" alt="Cover image">
                     </div>
-                    <div class="flex flex-col gap-1 flex-grow">
-                        <h2>Kanojo Okarishimasu</h2>
+                    <div class="flex flex-col gap-1 flex-grow pl-5">
+                        <h2 class="text-lg line-clamp-2">JoJo's Bizarre Adventure Part 7 - Steel Ball Run</h2>
                         <span class="flex gap-1 flex-row">
                             <span>Ch.4</span>
                             <span>12.22 AM</span>
                         </span>
                     </div>
                     <div class="delete px-3">
-                        <i class="fa-trash fa-solid"></i>
+                        <i class="fa-trash fa-solid text-xl"></i>
                     </div>
                 </div>
             </div>
