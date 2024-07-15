@@ -26,22 +26,38 @@ nav{
     flex-direction: column;
     justify-content: center ;
     align-items: center;
+
+    span{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        @apply
+        rounded-full
+        transition-all
+        ease-in
+    }
 }
 .navlinks>li:hover{
+
+span{
     opacity: 0.5;
     background-color: $accent;
+}
+    
     
 }
 .nav-icon{
     height: 30px;
 }
 .selected{
-    .nav-icon{
+    span{
         background-color: $accent;
+    }
+    .nav-icon{
         svg{
             fill: $accent
         }
     }
-    color: $accent;
+    // color: $accent;
     
 }

@@ -16,7 +16,8 @@ import { LoaderComponent } from './Shared/loader/loader.component';
 import { TachiSvgIconsComponent } from './Shared/tachi-svg-icons/tachi-svg-icons.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
-import { HistoryComponent } from './history/history.component'
+import { HistoryComponent } from './history/history.component';
+import { MoreComponent } from './more/more.component'
 // import {MatIconModule} from '@angular/material'
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { HistoryComponent } from './history/history.component'
     SearchPageComponent,
     BrowseComponent,
     TachiSvgIconsComponent,
-    HistoryComponent
+    HistoryComponent,
+    MoreComponent
   ],
   imports: [
     BrowserModule,

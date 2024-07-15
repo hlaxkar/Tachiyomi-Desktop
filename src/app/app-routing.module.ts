@@ -6,6 +6,7 @@ import { LibraryComponent } from './Components/library/library.component';
 import { SearchPageComponent } from './Components/search-page/search-page.component';
 import { MangaDetailsComponent } from './Components/manga-details/manga-details.component';
 import { HistoryComponent } from './history/history.component';
+import { MoreComponent } from './more/more.component';
 
 
 const routes: Routes = [
@@ -20,6 +21,9 @@ const routes: Routes = [
   },
   {
     path:'history', component:HistoryComponent
+  },
+  {
+    path:'more', component:MoreComponent
   },
   {
     path:'details/:mangaid', component:MangaDetailsComponent
