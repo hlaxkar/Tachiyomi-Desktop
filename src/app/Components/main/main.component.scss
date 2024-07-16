@@ -1,0 +1,8 @@
+@import '../../../styles.scss';
+.main{
+
+    @media (min-width:768px) {
+        padding-left:20px ;
+        margin-left: max(9%,100px);
+    }
+}
