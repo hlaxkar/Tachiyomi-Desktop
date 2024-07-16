@@ -1,39 +1,43 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import {BrowseComponent} from '../app/Components/browse/browse.component'
+import { BrowseComponent } from '../app/Components/browse/browse.component'
 import { LibraryComponent } from './Components/library/library.component';
 import { SearchPageComponent } from './Components/search-page/search-page.component';
 import { MangaDetailsComponent } from './Components/manga-details/manga-details.component';
-import { HistoryComponent } from './history/history.component';
-import { MoreComponent } from './more/more.component';
+import { HistoryComponent } from './Components/history/history.component';
+import { MoreComponent } from './Components/more/more.component';
+import { ReaderComponent } from './Components/reader/reader.component';
 
 
 const routes: Routes = [
   {
-    path:'', component: LibraryComponent
+    path: '', component: LibraryComponent
   },
   {
-    path:'browse', component: BrowseComponent
+    path: 'browse', component: BrowseComponent
   },
   {
-    path:'search', component:SearchPageComponent
+    path: 'search', component: SearchPageComponent
   },
   {
-    path:'history', component:HistoryComponent
+    path: 'history', component: HistoryComponent
   },
   {
-    path:'more', component:MoreComponent
+    path: 'more', component: MoreComponent
   },
   {
-    path:'details/:mangaid', component:MangaDetailsComponent
+    path: 'reader/:mangaID/:pageNum', component: ReaderComponent
+  },
+  {
+    path: 'details/:mangaid', component: MangaDetailsComponent
     // path:'details:id', component:MangaDetailsComponent
 
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes ,{ useHash: true })],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

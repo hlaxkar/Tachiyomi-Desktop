@@ -16,8 +16,9 @@ import { LoaderComponent } from './Shared/loader/loader.component';
 import { TachiSvgIconsComponent } from './Shared/tachi-svg-icons/tachi-svg-icons.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
-import { HistoryComponent } from './history/history.component';
-import { MoreComponent } from './more/more.component'
+import { HistoryComponent } from './Components/history/history.component';
+import { MoreComponent } from './Components/more/more.component';
+import { ReaderComponent } from './Components/reader/reader.component'
 // import {MatIconModule} from '@angular/material'
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { MoreComponent } from './more/more.component'
     BrowseComponent,
     TachiSvgIconsComponent,
     HistoryComponent,
-    MoreComponent
+    MoreComponent,
+    ReaderComponent
   ],
   imports: [
     BrowserModule,

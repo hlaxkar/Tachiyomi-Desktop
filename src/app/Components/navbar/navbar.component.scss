@@ -30,11 +30,13 @@ nav{
     span{
         width: 100%;
         display: flex;
+        max-width: 100px;
         justify-content: center;
         @apply
         rounded-full
         transition-all
         ease-in
+        p-1
     }
 }
 .navlinks>li:hover{
@@ -47,7 +49,7 @@ span{
     
 }
 .nav-icon{
-    height: 30px;
+    height: 1.6rem;
 }
 .selected{
     span{
