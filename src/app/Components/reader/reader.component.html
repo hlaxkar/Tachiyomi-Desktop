@@ -1,11 +1,13 @@
-<div class="bg-black w-screen h-screen">
-<div class="top-bar"></div>
-<div class="page"> 
-
-    
-</div>
-<div class="bottom-bar">
+<div class="bg-black w-screen h-screen relative">
+  <div *ngIf="barsVisible" [@slideInLeft]="animationState" class="top-bar fixed w-full h-24 top-0 left-0 bg-slate-50"></div>
+  <div class="page  w-full h-full">
+    <div class="flex h-full w-full justify-center items-center">
+      
+        <img (click)="showBars()" class="max-h-full" src="/assets/static/Horimiya.jpg" alt="mangapage" />
+    </div>
+  </div>
+  <div *ngIf="barsVisible" [@slideInLeft]="animationState" class="bottom-bar bg-slate-50 w-full fixed bottom-0 left-0 h-24">
     <div class="progress-bar"></div>
     <div class="menu-bar"></div>
-</div>
+  </div>
 </div>
