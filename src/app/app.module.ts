@@ -20,7 +20,9 @@ import { HistoryComponent } from './Components/history/history.component';
 import { MoreComponent } from './Components/more/more.component';
 import { ReaderComponent } from './Components/reader/reader.component';
 import { MainComponent } from './Components/main/main.component'
-// import {MatIconModule} from '@angular/material'
+// import {MatIcimport { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';onModule} from '@angular/material'
+import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
+import { DragScrollComponent, DragScrollItemDirective } from 'ngx-drag-scroll';
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,6 +49,9 @@ import { MainComponent } from './Components/main/main.component'
     ReactiveFormsModule,
     FormsModule,
     BrowserAnimationsModule,
+    NgxSkeletonLoaderModule,
+    DragScrollComponent, 
+    DragScrollItemDirective,
     
   ],
   providers: [],

@@ -2,7 +2,7 @@
 <div
   class="topnavbar sticky top-0 items-center text-prime_text h-auto text-xl md:bg-dark_bg w-full p-4 z-50 flex justify-between m-auto"
   [ngClass]="{ 'bg-transparent': isScrolled }">
-  <mat-icon class="!overflow-visible">arrow_back</mat-icon>
+  <mat-icon class="!overflow-visible cursor-pointer" (click)="goBack()">arrow_back</mat-icon>
   <span class="md:block flex-grow pl-3 line-clamp-1">{{
     mangaData.attributes.title["en"]
     }}</span>
@@ -64,9 +64,9 @@
   <div  class="chapter-container w-full md:overflow-scroll h-screen">
     <p class="text-prime_text p-4">{{totalchaps}}</p>
     <ul class="chapterlist transition-all">
-      <li routerLink="/reader/12/23" *ngFor="let chapter of chapterList; index as i"
+      <li *ngFor="let chapter of chapterList; index as i"
         class="flex text-prime_text w-full justify-between items-center hover:backdrop-brightness-90 cursor-pointer transition-all ease-in p-4">
-        <div>
+        <div  class="flex-grow" routerLink="/reader/12/23">
           <p>Vol. {{chapter.attributes.volume}} Ch.{{chapter.attributes.chapter}} </p>
           <div>
             <span class="text-xs">{{chapter.attributes.publishAt | date :'short'}} </span> ▪
@@ -74,10 +74,10 @@
               chapter.relationships[0].attributes?.name : ''}} </span>
           </div>
         </div>
-        <span class="download-svg"><app-tachi-svg-icons [svgName]="'download_btn'"
+        <span class="w-10 cursor-pointer active:animate-pulse"><app-tachi-svg-icons [svgName]="'download_btn'"
             class="w-6 h-auto block mb-1 opacity-75 hover:opacity-100 transition-all ease-in"></app-tachi-svg-icons>
         </span>
       </li>
     </ul>
   </div>
-</div>z
+</div>

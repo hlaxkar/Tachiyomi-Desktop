@@ -1,13 +1,35 @@
 <div class="bg-black w-screen h-screen relative">
-  <div *ngIf="barsVisible" [@slideInLeft]="animationState" class="top-bar fixed w-full h-24 top-0 left-0 bg-slate-50"></div>
-  <div class="page  w-full h-full">
-    <div class="flex h-full w-full justify-center items-center">
-      
-        <img (click)="showBars()" class="max-h-full" src="/assets/static/Horimiya.jpg" alt="mangapage" />
+  <div *ngIf="barsVisible" [@slideUp]="animationState"
+    class="top-bar  fixed w-full h-24 top-0 left-0 bg-navbar_color flex flex-row items-center p-4 text-prime_text">
+
+    <div class="px-4">
+      <mat-icon class="!overflow-visible cursor-pointer" (click)="goBack()">arrow_back</mat-icon>
     </div>
+    <div class="flex-grow flex flex-col gap-1">
+      <span class="text-2xl">This Is A Title</span>
+      <span class="text-lg">Chapter 1</span>
+
+    </div>
+    <div class="flex flex-row gap-5 items-center">
+      <span class="w-8"><img src="assets/Bookmark Border.svg" alt="" srcset=""></span>
+
+      <app-tachi-svg-icons [svgName]="'Webview'"
+        class="w-8 h-auto block mb-1 fill-prime_text group-hover:fill-white transition-all ease-in">
+      </app-tachi-svg-icons></div>
   </div>
-  <div *ngIf="barsVisible" [@slideInLeft]="animationState" class="bottom-bar bg-slate-50 w-full fixed bottom-0 left-0 h-24">
-    <div class="progress-bar"></div>
-    <div class="menu-bar"></div>
+  <div class="page  w-full h-full">
+    <drag-scroll class="flex h-full w-full justify-center items-center gap-2">
+     
+        
+      <img drag-scroll-item (click)="showBars()" class="max-h-full" src="/assets/static/testPage.jpg" alt="mangaPage" />
+      <img drag-scroll-item (click)="showBars()" class="max-h-full" src="/assets/static/testPage.jpg" alt="mangaPage" />   <img drag-scroll-item (click)="showBars()" class="max-h-full" src="/assets/static/testPage.jpg" alt="mangaPage" />   <img drag-scroll-item (click)="showBars()" class="max-h-full" src="/assets/static/testPage.jpg" alt="mangaPage" />
+      </drag-scroll>
+ 
+  </div>
+  <div *ngIf="barsVisible" [@slideDown]="animationState"
+    class="bottom-bar bg-navbar_color text-prime_text w-full fixed bottom-0 left-0 h-24">
+    <div class="progress-bar">Learn about Google Cloud, find prescriptive guidance, and explore migration resources.
+    </div>
+    <div class="menu-bar">Learn about Google Cloud, find prescriptive guidance, and explore migration resources.</div>
   </div>
 </div>

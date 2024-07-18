@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
+import {Location} from '@angular/common';
 
 import { MangadexApiService } from 'src/app/Services/mangadex-api.service';
 @Component({
@@ -12,7 +13,8 @@ export class MangaDetailsComponent {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private magnadex: MangadexApiService
+    private magnadex: MangadexApiService,
+    private _location: Location
   ) {
     this.mangaData = {
       id: '',
@@ -83,5 +85,8 @@ export class MangaDetailsComponent {
     } else {
       this.coverUrl = '../../assets/cover_error.svg';
     }
+  }
+  goBack(){
+    this._location.back();
   }
 }
