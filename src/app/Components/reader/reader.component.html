@@ -1,6 +1,6 @@
 <div class="bg-black w-screen h-screen relative">
   <div *ngIf="barsVisible" [@slideUp]="animationState"
-    class="top-bar  fixed w-full h-24 top-0 left-0 bg-navbar_color flex flex-row items-center p-4 text-prime_text">
+    class="top-bar z-40  fixed w-full h-24 top-0 left-0 bg-navbar_color flex flex-row items-center p-4 text-prime_text">
 
     <div class="px-4">
       <mat-icon class="!overflow-visible cursor-pointer" (click)="goBack()">arrow_back</mat-icon>
@@ -15,16 +15,25 @@
 
       <app-tachi-svg-icons [svgName]="'Webview'"
         class="w-8 h-auto block mb-1 fill-prime_text group-hover:fill-white transition-all ease-in">
-      </app-tachi-svg-icons></div>
+      </app-tachi-svg-icons>
+    </div>
   </div>
   <div class="page  w-full h-full">
-    <drag-scroll class="flex h-full w-full justify-center items-center gap-2">
-     
-        
-      <img drag-scroll-item (click)="showBars()" class="max-h-full" src="/assets/static/testPage.jpg" alt="mangaPage" />
-      <img drag-scroll-item (click)="showBars()" class="max-h-full" src="/assets/static/testPage.jpg" alt="mangaPage" />   <img drag-scroll-item (click)="showBars()" class="max-h-full" src="/assets/static/testPage.jpg" alt="mangaPage" />   <img drag-scroll-item (click)="showBars()" class="max-h-full" src="/assets/static/testPage.jpg" alt="mangaPage" />
-      </drag-scroll>
- 
+    <div class="page-nav absolute flex flex-row w-full h-full top-0 left-0">
+      <div (click)="goLeft()" class="go-left w-1/3 h-full"></div>
+      <div (click)="showBars()" class="open-bars w-1/3 h-full"> </div>
+      <div (click)="goRight()" class="go-right w-1/3 h-full"></div>
+    </div>
+
+
+    <div class="flex h-full w-full justify-center items-center gap-2">
+      <ng-container *ngFor="let page of mangaPages; index as i">
+
+        <img *ngIf="currentPage == i" class="max-h-full" src="{{page}}" alt="mangaPage" />
+
+      </ng-container>
+    </div>
+
   </div>
   <div *ngIf="barsVisible" [@slideDown]="animationState"
     class="bottom-bar bg-navbar_color text-prime_text w-full fixed bottom-0 left-0 h-24">
