@@ -38,6 +38,7 @@
     "@angular/cli": "~16.2.14",
     "@angular/compiler-cli": "^16.2.12",
     "@types/jasmine": "~4.3.0",
+    "@types/jquery": "^3.5.30",
     "autoprefixer": "^10.4.14",
     "electron": "^25.1.0",
     "jasmine-core": "~4.5.0",

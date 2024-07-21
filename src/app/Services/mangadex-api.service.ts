@@ -35,5 +35,13 @@ export class MangadexApiService {
     let url = `${this.url}manga?includes[]=cover_art&includes[]=artist&includes[]=author&order[followedCount]=desc&contentRating[]=safe&contentRating[]=suggestive&hasAvailableChapters=true&limit=20`;
     return this.http.get(url);
   }
+  getChapterPages(chapterID:string):Observable<any>{
+    let url = `${this.url}at-home/server/${chapterID}`;
+    return this.http.get(url)
+  }
+  getMangaByTag(tag:string):Observable<any>{
+    let url = `${this.url}manga?includes[]=cover_art&includes[]=artist&includes[]=author&contentRating[]=safe&contentRating[]=suggestive&hasAvailableChapters=true&limit=20&tagIds[]=${tag}`;
+    return this.http.get(url);
+  }
 
 }

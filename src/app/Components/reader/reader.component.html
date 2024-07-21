@@ -19,21 +19,33 @@
     </div>
   </div>
   <div class="page  w-full h-full">
-    <div class="page-nav absolute flex flex-row w-full h-full top-0 left-0">
+    <!-- <div class="page-nav absolute flex flex-row w-full h-full top-0 left-0">
       <div (click)="goLeft()" class="go-left w-1/3 h-full"></div>
       <div (click)="showBars()" class="open-bars w-1/3 h-full"> </div>
       <div (click)="goRight()" class="go-right w-1/3 h-full"></div>
-    </div>
+    </div> -->
 
 
-    <div class="flex h-full w-full justify-center items-center gap-2">
-      <ng-container *ngFor="let page of mangaPages; index as i">
+    <!-- <div id="mangareader" class="flex h-full w-full justify-center items-center gap-2"> -->
+      <!-- <ng-container *ngFor="let page of mangaPages; index as i"> -->
 
-        <img *ngIf="currentPage == i" class="max-h-full" src="{{page}}" alt="mangaPage" />
+        <!-- <img *ngIf="currentPage == i" class="max-h-full" src="{{page}}" alt="mangaPage" /> -->
+        <!-- <img class="max-h-full" src="/assets/static/Horimiya.jpg" alt="mangaPage" />
+        <img class="max-h-full" src="/assets/static/Kanojo.jpg" alt="mangaPage" />
+        <img class="max-h-full" src="/assets/static/One.jpg" alt="mangaPage" />
+        <img class="max-h-full" src="/assets/static/Kanojo.jpg" alt="mangaPage" />
+        <img class="max-h-full" src="/assets/static/One.jpg" alt="mangaPage" /> -->
 
-      </ng-container>
-    </div>
+      <!-- </ng-container> -->
+    <!-- </div> -->
+    <div id=”flipbook” class="h-full w-1/2  relative">
+     
+      <div class="bg-no-repeat bg-contain" style="background-image:url(/assets/static/Horimiya.jpg);"></div>
+      <div class="bg-no-repeat bg-contain" style="background-image:url(/assets/static/Kanojo.jpg);"></div>
+      <div class="bg-no-repeat bg-contain" style="background-image:url(/assets/static/One.jpg); background-size: contain;"></div>
+      <div class="bg-no-repeat bg-contain" style="background-image:url(/assets/static/Goku.jpg);"></div>
 
+      </div>
   </div>
   <div *ngIf="barsVisible" [@slideDown]="animationState"
     class="bottom-bar bg-navbar_color text-prime_text w-full fixed bottom-0 left-0 h-24">
