@@ -25,7 +25,7 @@ const routes: Routes = [
     ],
   },
   {
-    path: 'reader/:mangaID/:pageNum',
+    path: 'reader/:mangaID/:chapterID',
     component: ReaderComponent,
   },
 ];

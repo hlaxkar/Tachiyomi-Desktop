@@ -61,12 +61,12 @@
   </div>
 
   <!-- Chapter Container -->
-  <div  class="chapter-container w-full md:overflow-scroll h-screen">
+  <div class="chapter-container w-full md:overflow-scroll h-screen">
     <p class="text-prime_text p-4">{{totalchaps}}</p>
     <ul class="chapterlist transition-all">
       <li *ngFor="let chapter of chapterList; index as i"
         class="flex text-prime_text w-full justify-between items-center hover:backdrop-brightness-90 cursor-pointer transition-all ease-in p-4">
-        <div  class="flex-grow" routerLink="/reader/12/23">
+        <div class="flex-grow" routerLink="/reader/{{mangaId}}/{{chapter.id}}">
           <p>Vol. {{chapter.attributes.volume}} Ch.{{chapter.attributes.chapter}} </p>
           <div>
             <span class="text-xs">{{chapter.attributes.publishAt | date :'short'}} </span> ▪

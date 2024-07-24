@@ -6,8 +6,8 @@
       <mat-icon class="!overflow-visible cursor-pointer" (click)="goBack()">arrow_back</mat-icon>
     </div>
     <div class="flex-grow flex flex-col gap-1">
-      <span class="text-2xl">This Is A Title</span>
-      <span class="text-lg">Chapter 1</span>
+      <span class="text-2xl">{{chapterTitle}}</span>
+      <span class="text-lg">Vol. {{volumeNumber}} Ch. {{chapterNumber}}</span>
 
     </div>
     <div class="flex flex-row gap-5 items-center">
@@ -19,33 +19,30 @@
     </div>
   </div>
   <div class="page  w-full h-full">
-    <!-- <div class="page-nav absolute flex flex-row w-full h-full top-0 left-0">
+    <div class="page-nav absolute flex flex-row w-full h-full top-0 left-0">
       <div (click)="goLeft()" class="go-left w-1/3 h-full"></div>
       <div (click)="showBars()" class="open-bars w-1/3 h-full"> </div>
       <div (click)="goRight()" class="go-right w-1/3 h-full"></div>
-    </div> -->
+    </div>
 
 
-    <!-- <div id="mangareader" class="flex h-full w-full justify-center items-center gap-2"> -->
-      <!-- <ng-container *ngFor="let page of mangaPages; index as i"> -->
+    <div id="mangareader" class="flex h-full w-full justify-center items-center gap-2">
+      <ng-container *ngFor="let page of readingArray; index as i">
 
-        <!-- <img *ngIf="currentPage == i" class="max-h-full" src="{{page}}" alt="mangaPage" /> -->
-        <!-- <img class="max-h-full" src="/assets/static/Horimiya.jpg" alt="mangaPage" />
-        <img class="max-h-full" src="/assets/static/Kanojo.jpg" alt="mangaPage" />
-        <img class="max-h-full" src="/assets/static/One.jpg" alt="mangaPage" />
-        <img class="max-h-full" src="/assets/static/Kanojo.jpg" alt="mangaPage" />
-        <img class="max-h-full" src="/assets/static/One.jpg" alt="mangaPage" /> -->
+        <img *ngIf="currentPage == i" class="max-h-full" src="{{baseUrl+'/'+quality+'/'+hash+'/'+page}}"
+          alt="mangaPage" />
 
-      <!-- </ng-container> -->
-    <!-- </div> -->
-    <div id=”flipbook” class="h-full w-1/2  relative">
-     
+      </ng-container>
+    </div>
+    <!-- <div id=”flipbook” class="h-full w-1/2  relative">
+
       <div class="bg-no-repeat bg-contain" style="background-image:url(/assets/static/Horimiya.jpg);"></div>
       <div class="bg-no-repeat bg-contain" style="background-image:url(/assets/static/Kanojo.jpg);"></div>
-      <div class="bg-no-repeat bg-contain" style="background-image:url(/assets/static/One.jpg); background-size: contain;"></div>
+      <div class="bg-no-repeat bg-contain"
+        style="background-image:url(/assets/static/One.jpg); background-size: contain;"></div>
       <div class="bg-no-repeat bg-contain" style="background-image:url(/assets/static/Goku.jpg);"></div>
 
-      </div>
+    </div> -->
   </div>
   <div *ngIf="barsVisible" [@slideDown]="animationState"
     class="bottom-bar bg-navbar_color text-prime_text w-full fixed bottom-0 left-0 h-24">

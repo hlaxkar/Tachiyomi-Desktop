@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class MangadexApiService {
   private sampleData: any;
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
   private url = `https://api.mangadex.dev/`;
   private imageurl = 'https://uploads.mangadex.org/covers/';
   getSample() {
@@ -35,13 +35,17 @@ export class MangadexApiService {
     let url = `${this.url}manga?includes[]=cover_art&includes[]=artist&includes[]=author&order[followedCount]=desc&contentRating[]=safe&contentRating[]=suggestive&hasAvailableChapters=true&limit=20`;
     return this.http.get(url);
   }
-  getChapterPages(chapterID:string):Observable<any>{
+  getChapterPages(chapterID: string): Observable<any> {
     let url = `${this.url}at-home/server/${chapterID}`;
     return this.http.get(url)
   }
-  getMangaByTag(tag:string):Observable<any>{
+  getMangaByTag(tag: string): Observable<any> {
     let url = `${this.url}manga?includes[]=cover_art&includes[]=artist&includes[]=author&contentRating[]=safe&contentRating[]=suggestive&hasAvailableChapters=true&limit=20&tagIds[]=${tag}`;
     return this.http.get(url);
+  }
+  getChapterbyId(chapterId: string): Observable<any> {
+    let url = `${this.url}chapter/${chapterId}`;
+    return this.http.get(url)
   }
 
 }
