@@ -25,11 +25,11 @@
       <div (click)="goRight()" class="go-right w-1/3 h-full"></div>
     </div>
 
-
+<app-loader *ngIf="isLoading"></app-loader>
     <div id="mangareader" class="flex h-full w-full justify-center items-center gap-2">
       <ng-container *ngFor="let page of readingArray; index as i">
 
-        <img *ngIf="currentPage == i" class="max-h-full" src="{{baseUrl+'/'+quality+'/'+hash+'/'+page}}"
+        <img *ngIf="currentPage == i" class="max-h-full" [src]="getImageUrl(page)"
           alt="mangaPage" />
 
       </ng-container>
