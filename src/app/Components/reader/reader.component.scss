@@ -6,3 +6,10 @@
 	background-color:#ccc;
 	background-size:100% 100%;
 }
+.page-stepper{
+	@apply w-12 h-12 text-lg rounded-full bg-navbar_color bg-opacity-45 flex items-center justify-center
+	hover:opacity-70
+	transition-all
+	ease-out
+	cursor-pointer
+}

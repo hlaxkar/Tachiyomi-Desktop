@@ -19,7 +19,7 @@ export class ReaderComponent {
     private _location: Location,
     private route: ActivatedRoute,
     private mangadex: MangadexApiService,
-    private imagePreloader:ImagePreloaderService
+    private imagePreloader: ImagePreloaderService
   ) {}
   @HostListener('window:keyup', ['$event'])
   keyEvent(event: KeyboardEvent) {
@@ -46,15 +46,14 @@ export class ReaderComponent {
       this.hash = data.chapter.hash;
       this.baseUrl = data.baseUrl;
       this.readingArray = this.mangaPagesDataSaver;
-    this.preloadAdjacentImages();
+      this.totalPages = data.chapter.data.length;
+      this.preloadAdjacentImages();
       setTimeout(() => {
         this.isLoading = false;
       }, 1000);
-
     });
-
   }
-  barsVisible = false;
+  barsVisible = true;
   animationState = 'in';
   mangaPagesDataSaver = [
     '/assets/static/Horimiya.jpg',
@@ -74,6 +73,7 @@ export class ReaderComponent {
   chapterNumber: string = '';
   volumeNumber: string = '';
   isLoading = true;
+  totalPages: Number = 0;
   toggleQuality() {
     this.quality = this.quality === 'data' ? 'data-saver' : 'data';
     this.readingArray =
@@ -114,5 +114,12 @@ export class ReaderComponent {
     const url = `${this.baseUrl}/${this.quality}/${this.hash}/${page}`;
     const preloadedImage = this.imagePreloader.getImage(url);
     return preloadedImage ? preloadedImage.src : url;
+  }
+  get currentPageValue(): number {
+    return this.currentPage + 1; // Convert zero-indexed to one-indexed
+  }
+
+  set currentPageValue(value: number) {
+    this.currentPage = value - 1; // Convert one-indexed to zero-indexed
   }
 }

@@ -23,6 +23,7 @@ import { MainComponent } from './Components/main/main.component'
 // import {MatIcimport { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';onModule} from '@angular/material'
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 import { DragScrollComponent, DragScrollItemDirective } from 'ngx-drag-scroll';
+import {MatRippleModule} from '@angular/material/core';
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,6 +45,7 @@ import { DragScrollComponent, DragScrollItemDirective } from 'ngx-drag-scroll';
     BrowserModule,
     HttpClientModule,
     MatIconModule,
+    MatRippleModule,
     RouterModule,
     AppRoutingModule,
     ReactiveFormsModule,
