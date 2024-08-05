@@ -19,17 +19,22 @@
   <div class="manga-details w-full md:h-screen md:overflow-scroll">
     <div class="flex big-cover pt-32 px-5 items-center" style="background-image: url('{{coverUrl}}');">
       <div class="cover w-[150px] max-h-[250px] md:w-[256px] shadow-md rounded-sm overflow-hidden cursor-pointer">
-        <img [src]="coverUrl" alt="cover_art" style="background-image: url('../../../assets/cover_error.svg');"
+        <img *ngIf="!isLoading" [src]="coverUrl" alt="cover_art" style="background-image: url('../../../assets/cover_error.svg');"
+        class="bg-no-repeat bg-cover"
           srcset="" />
+          <ngx-skeleton-loader *ngIf="isLoading" count="1" [theme]="{'height':'250px', background:'#21212d'}"></ngx-skeleton-loader>
       </div>
       <div class="w-full px-4 text-second_text">
         <div class="mangaTitle text-3xl text-prime_text">
-          {{ mangaData.attributes.title["en"] }}
+         <ng-container *ngIf="!isLoading"> {{ mangaData.attributes.title["en"] }} </ng-container>
+          <ngx-skeleton-loader *ngIf="isLoading" count="1" [theme]="{'height':'25px', background:'#21212d'}"></ngx-skeleton-loader>
+
         </div>
         <p class="authorName capitalize">{{ mangaAuthor }}</p>
         <span class="flex gap-2">
           <p class="status capitalize">{{ mangaData.attributes.status }}</p>
           <p class="source">MangaDex (EN)</p>
+          <!-- <ngx-skeleton-loader count="2"></ngx-skeleton-loader> -->
         </span>
       </div>
     </div>
@@ -48,7 +53,9 @@
     </div>
     <div class="descContainer text-second_text p-3">
       <p>
-        {{ mangaData.attributes.description["en"] }}
+       <ng-container *ngIf="!isLoading"> {{ mangaData.attributes.description["en"] }} </ng-container>
+        <ngx-skeleton-loader *ngIf="isLoading" count="6" [theme]="{'height':'10px', background:'#21212d'}"></ngx-skeleton-loader>
+
       </p>
     </div>
     <div class="tags p-3">

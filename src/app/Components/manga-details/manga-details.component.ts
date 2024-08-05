@@ -30,7 +30,7 @@ export class MangaDetailsComponent {
       },
     };
   }
-
+isLoading:Boolean = true;
   isScrolled: Boolean = false;
   mangaId: any;
   mangaData: any;
@@ -54,6 +54,7 @@ export class MangaDetailsComponent {
             next:(data)=>{
               this.chapterList = data.data
               this.totalchaps = data.total
+              this.isLoading = false;
             },
             error:(error)=>{
               console.log(error);
