@@ -30,7 +30,7 @@ export class MangaDetailsComponent {
       },
     };
   }
-isLoading:Boolean = true;
+  isLoading:Boolean = true;
   isScrolled: Boolean = false;
   mangaId: any;
   mangaData: any;

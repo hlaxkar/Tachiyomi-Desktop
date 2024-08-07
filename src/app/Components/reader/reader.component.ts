@@ -1,18 +1,20 @@
 import { Component, HostListener } from '@angular/core';
 import { Location } from '@angular/common';
-import { SlideInOutAnimation } from 'src/app/Shared/animation';
-import { ActivatedRoute } from '@angular/router';
+import { PageSlideAnimation, SlideInOutAnimation} from 'src/app/Shared/animation';
+import { ActivatedRoute} from '@angular/router';
 import { MangadexApiService } from 'src/app/Services/mangadex-api.service';
 import { ImagePreloaderService } from 'src/app/Services/image-preloader.service';
+
 export enum KEY_CODE {
   RIGHT_ARROW = 39,
   LEFT_ARROW = 37,
 }
 @Component({
   selector: 'app-reader',
-  animations: [SlideInOutAnimation],
+  animations: [PageSlideAnimation, SlideInOutAnimation],
   templateUrl: './reader.component.html',
   styleUrls: ['./reader.component.scss'],
+  
 })
 export class ReaderComponent {
   constructor(
@@ -54,7 +56,7 @@ export class ReaderComponent {
     });
   }
   barsVisible = true;
-  animationState = 'in';
+  animationState = 'default';
   mangaPagesDataSaver = [
     '/assets/static/Horimiya.jpg',
     '/assets/static/Kanojo.jpg',
@@ -84,20 +86,25 @@ export class ReaderComponent {
     this.animationState = this.barsVisible ? 'in' : 'out';
   }
   goBack() {
-    this._location.back();
+       this._location.back();
   }
 
   goLeft() {
     if (this.currentPage > 0) {
       this.currentPage--;
       this.preloadAdjacentImages();
+      this.animationState = 'slideLeft';
     }
   }
   goRight() {
     if (this.currentPage < this.readingArray.length - 1) {
       this.currentPage++;
       this.preloadAdjacentImages();
+      this.animationState = 'slideRight';
     }
+  }
+  onAnimationDone() {
+    this.animationState = 'default';
   }
   preloadAdjacentImages(): void {
     const preloadUrls = [];

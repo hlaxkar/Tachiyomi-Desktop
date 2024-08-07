@@ -29,7 +29,7 @@
     <div *ngIf="!isLoading" id="mangareader" class="flex h-full w-full justify-center items-center gap-2">
       <ng-container *ngFor="let page of readingArray; index as i">
 
-        <img *ngIf="currentPage == i" class="max-h-full" [src]="getImageUrl(page)"
+        <img [@pageSlide] *ngIf="currentPage == i" class="max-h-full" [src]="getImageUrl(page)"
           alt="mangaPage" />
 
       </ng-container>
