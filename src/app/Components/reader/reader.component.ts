@@ -1,6 +1,6 @@
 import { Component, HostListener } from '@angular/core';
 import { Location } from '@angular/common';
-import { PageSlideAnimation, SlideInOutAnimation} from 'src/app/Shared/animation';
+import { PageSlideAnimationRTL, SlideInOutAnimation} from 'src/app/Shared/animation';
 import { ActivatedRoute} from '@angular/router';
 import { MangadexApiService } from 'src/app/Services/mangadex-api.service';
 import { ImagePreloaderService } from 'src/app/Services/image-preloader.service';
@@ -11,7 +11,7 @@ export enum KEY_CODE {
 }
 @Component({
   selector: 'app-reader',
-  animations: [PageSlideAnimation, SlideInOutAnimation],
+  animations: [PageSlideAnimationRTL, SlideInOutAnimation],
   templateUrl: './reader.component.html',
   styleUrls: ['./reader.component.scss'],
   
@@ -93,6 +93,7 @@ export class ReaderComponent {
     if (this.currentPage > 0) {
       this.currentPage--;
       this.preloadAdjacentImages();
+      // this.animationState = 'default';
       this.animationState = 'slideLeft';
     }
   }
@@ -100,11 +101,14 @@ export class ReaderComponent {
     if (this.currentPage < this.readingArray.length - 1) {
       this.currentPage++;
       this.preloadAdjacentImages();
+      // this.animationState = 'default';
       this.animationState = 'slideRight';
     }
   }
-  onAnimationDone() {
+  onAnimationDone($event:any) {
     this.animationState = 'default';
+    console.log($event);
+    
   }
   preloadAdjacentImages(): void {
     const preloadUrls = [];
