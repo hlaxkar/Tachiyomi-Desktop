@@ -24,6 +24,7 @@ import { MainComponent } from './Components/main/main.component'
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 import { DragScrollComponent, DragScrollItemDirective } from 'ngx-drag-scroll';
 import {MatRippleModule} from '@angular/material/core';
+import { UpdatesComponent } from './Components/updates/updates.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +40,8 @@ import {MatRippleModule} from '@angular/material/core';
     HistoryComponent,
     MoreComponent,
     ReaderComponent,
-    MainComponent
+    MainComponent,
+    UpdatesComponent
   ],
   imports: [
     BrowserModule,
