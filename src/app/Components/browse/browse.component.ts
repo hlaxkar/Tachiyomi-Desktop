@@ -8,16 +8,16 @@ import { Component } from '@angular/core';
 export class BrowseComponent {
   extensions: any = [
     {
-      language: 'Englsih',
-      extensionList: ['MangaDex', 'Comick', 'Kemono', 'MangaPark'],
+      language: 'English',
+      extensionList: ['MangaDex'],
     },
-    {
-      language: 'Multi',
-      extensionList: ['MangaDex', 'Comick', 'Kemono', 'MangaPark'],
-    },
-    {
-      language: 'Hindi',
-      extensionList: ['MangaDex', 'Comick', 'Kemono', 'MangaPark'],
-    },
+    // {
+    //   language: 'Multi',
+    //   extensionList: ['MangaDex', 'Comick', 'Kemono', 'MangaPark'],
+    // },
+    // {
+    //   language: 'Hindi',
+    //   extensionList: ['MangaDex', 'Comick', 'Kemono', 'MangaPark'],
+    // },
   ];
 }

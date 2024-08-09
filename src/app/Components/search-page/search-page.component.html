@@ -1,10 +1,12 @@
+<div>
+
 <div
   class="main-header z-10 bg-dark_bg text-prime_text flex flex-col fixed top-0 left-0"
 >
   <div class="flex items-center h-[60px] gap-3 justify-between p-4">
     <h1 class="text-3xl transition-all md:inline" [ngClass]="{'hidden':searchOpen}">MangaDex</h1>
     <div class="flex gap-3 w-full justify-center transition-all">
-      <form [formGroup]="searchForm" (ngSubmit)="getmanga(this.searchForm.controls['search'].value)">
+      <form [formGroup]="searchForm" (ngSubmit)="getManga(this.searchForm.controls['search'].value)">
 
         <input type="text" formControlName="search" [ngClass]="{'hidden':!searchOpen}" placeholder="Search..." class="w-1/2 bg-dark_bg  rounded text-gray-300 transition-all h-9  md:inline">
       <button class="float-right md:inline" type="submit" [ngClass]="{'hidden':!searchOpen}"><i class="fas fa-search"></i></button>
@@ -17,15 +19,17 @@
 
   <div class="category border-b p-4 bg-dark_bg">
     <ul class="flex gap-3 justify-evenly">
-      <button class="bg-accent px-2 py-1 rounded-sm text-dark_bg" (click)="getPouplarManga()">Popular</button>
-      <button (click)="getmanga('attack')">Latest</button>
+      <button class="bg-accent px-2 py-1 rounded-sm text-dark_bg" (click)="getPopularManga()">Popular</button>
+      <button (click)="getManga('attack')">Latest</button>
       <button>Filter</button>
     </ul>
   </div>
 </div>
 
 <div class="container flex flex-wrap justify-between gap-2 p-2 relative mt-[140px]">
-  <app-loader *ngIf="isLoading"></app-loader>
+  <div class="absolute top-1/2 left-1/2">
+    <app-loader *ngIf="isLoading"></app-loader>
+  </div>
     
   <app-manga-cover
     
@@ -33,4 +37,7 @@
     [mangaData]="manga"
     class="w-[150px] text-white border border-red-100 "
   ></app-manga-cover>
+</div>
+
+  
 </div>

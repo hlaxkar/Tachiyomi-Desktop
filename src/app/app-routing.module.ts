@@ -9,6 +9,7 @@ import { HistoryComponent } from './Components/history/history.component';
 import { MoreComponent } from './Components/more/more.component';
 import { ReaderComponent } from './Components/reader/reader.component';
 import { MainComponent } from './Components/main/main.component';
+import { UpdatesComponent } from './Components/updates/updates.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,7 @@ const routes: Routes = [
       { path: '', redirectTo: 'library', pathMatch: 'full' },
       { path: 'library', component: LibraryComponent },
       { path: 'browse', component: BrowseComponent },
+      { path: 'updates', component: UpdatesComponent },
       { path: 'search', component: SearchPageComponent },
       { path: 'history', component: HistoryComponent },
       { path: 'more', component: MoreComponent },

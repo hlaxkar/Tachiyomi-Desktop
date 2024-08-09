@@ -17,15 +17,15 @@ export class SearchPageComponent implements OnInit{
   });
 
   searchResults: any;
-  isLoading: Boolean = false;
+  isLoading: Boolean = true;
 
   constructor(private mangadexApiService: MangadexApiService) {}
   ngOnInit(): void {
-    this.getPouplarManga();
+    this.getPopularManga();
   }
   searchOpen: boolean = false;
 
-  getmanga(title: string) {
+  getManga(title: string) {
     this.isLoading = true;
 
     this.mangadexApiService.searchManga(title).subscribe((fetchedData: any) => {
@@ -35,7 +35,7 @@ export class SearchPageComponent implements OnInit{
       this.searchResults = this.formatData(fetchedData.data);
     });
   }
-  getPouplarManga() {
+  getPopularManga() {
     this.isLoading = true;
 
     this.mangadexApiService.getPopularManga().subscribe((fetchedData: any) => {
