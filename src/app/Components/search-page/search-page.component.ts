@@ -7,9 +7,10 @@ import {
 import sampleData from '../../../assets/top10action.json';
 import { FormControl, FormGroup } from '@angular/forms';
 @Component({
-  selector: 'app-search-page',
-  templateUrl: './search-page.component.html',
-  styleUrls: ['./search-page.component.scss'],
+    selector: 'app-search-page',
+    templateUrl: './search-page.component.html',
+    styleUrls: ['./search-page.component.scss'],
+    standalone: false
 })
 export class SearchPageComponent implements OnInit{
   searchForm: FormGroup = new FormGroup({

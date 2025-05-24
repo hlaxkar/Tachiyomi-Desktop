@@ -1,9 +1,10 @@
 import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 @Component({
-  selector: 'app-manga-cover',
-  templateUrl: './manga-cover.component.html',
-  styleUrls: ['./manga-cover.component.scss'],
+    selector: 'app-manga-cover',
+    templateUrl: './manga-cover.component.html',
+    styleUrls: ['./manga-cover.component.scss'],
+    standalone: false
 })
 export class MangaCoverComponent {
   constructor(private router:Router) {}

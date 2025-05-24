@@ -5,9 +5,10 @@ import {Location} from '@angular/common';
 
 import { MangadexApiService } from 'src/app/Services/mangadex-api.service';
 @Component({
-  selector: 'app-manga-details',
-  templateUrl: './manga-details.component.html',
-  styleUrls: ['./manga-details.component.scss'],
+    selector: 'app-manga-details',
+    templateUrl: './manga-details.component.html',
+    styleUrls: ['./manga-details.component.scss'],
+    standalone: false
 })
 export class MangaDetailsComponent {
   constructor(

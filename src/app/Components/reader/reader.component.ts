@@ -10,11 +10,11 @@ export enum KEY_CODE {
   LEFT_ARROW = 37,
 }
 @Component({
-  selector: 'app-reader',
-  animations: [PageSlideAnimationRTL, SlideInOutAnimation],
-  templateUrl: './reader.component.html',
-  styleUrls: ['./reader.component.scss'],
-  
+    selector: 'app-reader',
+    animations: [PageSlideAnimationRTL, SlideInOutAnimation],
+    templateUrl: './reader.component.html',
+    styleUrls: ['./reader.component.scss'],
+    standalone: false
 })
 export class ReaderComponent {
   constructor(
