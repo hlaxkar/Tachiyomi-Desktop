@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Tachiyomi-web:build:production"
+              "buildTarget": "Tachiyomi-web:build:production"
             },
             "development": {
-              "browserTarget": "Tachiyomi-web:build:development"
+              "buildTarget": "Tachiyomi-web:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Tachiyomi-web:build"
+            "buildTarget": "Tachiyomi-web:build"
           }
         },
         "test": {
