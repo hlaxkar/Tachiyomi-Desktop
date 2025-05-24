@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import {
+  ExtraOptions,
+} from '@angular/router';
 
-import { BrowseComponent } from '../app/Components/browse/browse.component';
+import { BrowseComponent } from './Components/browse/browse.component';
 import { LibraryComponent } from './Components/library/library.component';
 import { SearchPageComponent } from './Components/search-page/search-page.component';
 import { MangaDetailsComponent } from './Components/manga-details/manga-details.component';
@@ -32,8 +35,19 @@ const routes: Routes = [
   },
 ];
 
+const routerOptions: ExtraOptions = {
+  useHash: true,
+  canceledNavigationResolution: 'replace', // default is 'replace'
+  paramsInheritanceStrategy: 'emptyOnly',   // default is 'emptyOnly'
+  urlUpdateStrategy: 'deferred',            // default is 'deferred'
+  // Uncomment below if you're customizing these:
+  // malformedUriErrorHandler: (error, serializer, url) => serializer.parse('/'),
+  // titleStrategy: YourCustomTitleStrategy,
+  // urlHandlingStrategy: YourCustomUrlStrategy,
+};
+
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: true })],
+  imports: [RouterModule.forRoot(routes, routerOptions)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
