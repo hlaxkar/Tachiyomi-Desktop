@@ -10,7 +10,7 @@ import { MangaCoverComponent } from './Components/manga-cover/manga-cover.compon
 import { MangaDetailsComponent } from './Components/manga-details/manga-details.component';
 import { SearchPageComponent } from './Components/search-page/search-page.component';
 import { BrowseComponent } from './Components/browse/browse.component';
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { FormsModule,ReactiveFormsModule }   from '@angular/forms';  
 import { LoaderComponent } from './Shared/loader/loader.component';
 import { TachiSvgIconsComponent } from './Shared/tachi-svg-icons/tachi-svg-icons.component';
@@ -25,40 +25,32 @@ import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 import { DragScrollComponent, DragScrollItemDirective } from 'ngx-drag-scroll';
 import {MatRippleModule} from '@angular/material/core';
 import { UpdatesComponent } from './Components/updates/updates.component';
-@NgModule({
-  declarations: [
-    AppComponent,
-    NavbarComponent,
-    NavlinksComponent,
-    LibraryComponent,
-    MangaCoverComponent,
-    LoaderComponent,
-    MangaDetailsComponent,
-    SearchPageComponent,
-    BrowseComponent,
-    TachiSvgIconsComponent,
-    HistoryComponent,
-    MoreComponent,
-    ReaderComponent,
-    MainComponent,
-    UpdatesComponent
-  ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    MatIconModule,
-    MatRippleModule,
-    RouterModule,
-    AppRoutingModule,
-    ReactiveFormsModule,
-    FormsModule,
-    BrowserAnimationsModule,
-    NgxSkeletonLoaderModule,
-    DragScrollComponent, 
-    DragScrollItemDirective,
-    
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        NavbarComponent,
+        NavlinksComponent,
+        LibraryComponent,
+        MangaCoverComponent,
+        LoaderComponent,
+        MangaDetailsComponent,
+        SearchPageComponent,
+        BrowseComponent,
+        TachiSvgIconsComponent,
+        HistoryComponent,
+        MoreComponent,
+        ReaderComponent,
+        MainComponent,
+        UpdatesComponent
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        MatIconModule,
+        MatRippleModule,
+        RouterModule,
+        AppRoutingModule,
+        ReactiveFormsModule,
+        FormsModule,
+        BrowserAnimationsModule,
+        NgxSkeletonLoaderModule,
+        DragScrollComponent,
+        DragScrollItemDirective], providers: [provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }
