@@ -1,65 +1,68 @@
-@import '../../../styles.scss';
-nav{
+@use '../../../styles.scss' as *;
+
+nav {
     width: 100vw;
-   
+
     @media (min-width:768px) {
         width: 9vw
-        
     }
+
     // min-width: 100px;
 }
-.navlinks{
+
+.navlinks {
     width: 100%;
     height: 100%;
 
 }
 
 
-.navlinks>li{
+.navlinks>li {
     cursor: pointer;
     transition: all;
     border-radius: 30px;
-   
-    background-color:$navbar_color;
+
+    background-color: $navbar_color;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
 
-    span{
+    span {
         width: 100%;
         display: flex;
         max-width: 100px;
         justify-content: center;
-        @apply
-        rounded-full
-        transition-all
-        ease-in
-        p-1
+        @apply rounded-full transition-all ease-in p-1
     }
 }
-.navlinks>li:hover{
 
-span{
-    opacity: 0.5;
-    background-color: $accent;
-}
-    
-    
-}
-.nav-icon{
-    height: 1.6rem;
-}
-.selected{
-    span{
+.navlinks>li:hover {
+
+    span {
+        opacity: 0.5;
         background-color: $accent;
     }
-    .nav-icon{
-        svg{
+
+
+}
+
+.nav-icon {
+    height: 1.6rem;
+}
+
+.selected {
+    span {
+        background-color: $accent;
+    }
+
+    .nav-icon {
+        svg {
             fill: $accent
         }
     }
+
     // color: $accent;
-    
+
 }

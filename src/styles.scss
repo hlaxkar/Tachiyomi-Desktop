@@ -35,7 +35,6 @@ $Tachiyomi-web-theme: mat.m2-define-light-theme((color: (primary: $Tachiyomi-web
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:wght@300;400&display=swap');
 
 body::-webkit-scrollbar {
   display: none;

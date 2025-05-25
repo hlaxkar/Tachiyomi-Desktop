@@ -1,8 +1,9 @@
-@import '../../../styles.scss';
-.main{
+@use '../../../styles.scss' as *;
+
+.main {
 
     @media (min-width:768px) {
-        padding-left:20px ;
-        margin-left: max(9%,100px);
+        padding-left: 20px;
+        margin-left: max(9%, 100px);
     }
 }

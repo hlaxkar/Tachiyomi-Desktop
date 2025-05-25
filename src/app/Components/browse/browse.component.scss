@@ -1,35 +1,41 @@
-@import '../../../styles.scss';
+@use '../../../styles.scss' as *;
 
-.selected{
+.selected {
     color: $accent;
     border-bottom: 2px solid $accent;
 }
-.cat-tab{
+
+.cat-tab {
     padding: 5px;
 
     cursor: pointer;
 }
-.cat-tab:hover{
+
+.cat-tab:hover {
     color: $accent;
     border-bottom: 2px solid $accent;
 }
-.cover-container{
+
+.cover-container {
     width: 200px;
     overflow: hidden;
     cursor: pointer;
     position: relative;
 
 }
-.cover-title{
+
+.cover-title {
     position: absolute;
     bottom: 5px;
 }
-.main-header{
+
+.main-header {
     @media (min-width:768px) {
-        margin-left: max(9%,100px);
-        
+        margin-left: max(9%, 100px);
+
     }
 }
-.list-area>section{
+
+.list-area>section {
     padding: 20px 0;
 }

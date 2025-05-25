@@ -1,65 +1,62 @@
-@import '../../../styles.scss';
+@use '../../../styles.scss' as *;
 
-.download-svg{
-    background-image: url('/assets/Download.svg');
-    aspect-ratio: 1;
-    height: 25px;
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
-    transition: all;
-    
+.download-svg {
+  background-image: url('/assets/Download.svg');
+  aspect-ratio: 1;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: all;
+
 }
-.download-svg:hover{
-    
-        opacity: 0.8;
-        
-    
+
+.download-svg:hover {
+
+  opacity: 0.8;
+
+
 }
-.big-cover{
-    
-    background-position: top;
-    background-size: cover;   
-    position: relative;
-  *{
+
+.big-cover {
+
+  background-position: top;
+  background-size: cover;
+  position: relative;
+
+  * {
     z-index: 10;
   }
 
 }
+
 .big-cover::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-   
-    background: linear-gradient(to top, rgba($dark_bg_rgb), rgba($dark_bg_rgb_dimmed));
-    // @apply
-    // bg-gradient-to-t
-    // from-dark_bg
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(to top, rgba($dark_bg_rgb), rgba($dark_bg_rgb_dimmed));
+  // @apply
+  // bg-gradient-to-t
+  // from-dark_bg
 
 }
-.tag{
-    @apply
-    px-4
-    py-2
-    text-prime_text
-    bg-btn_bg
-    rounded-lg
-    cursor-pointer
-    hover:opacity-70
-    transition-all
-    ease-in
 
+.tag {
+  @apply px-4 py-2 text-prime_text bg-btn_bg rounded-lg cursor-pointer hover:opacity-70 transition-all ease-in
 }
-.chapter-container::-webkit-scrollbar{
-display: none;
+
+.chapter-container::-webkit-scrollbar {
+  display: none;
 }
+
 // .topnavbar{
- 
+
 // }
-.manga-details::-webkit-scrollbar{
+.manga-details::-webkit-scrollbar {
   display: none;
 }
