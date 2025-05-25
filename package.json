@@ -10,6 +10,7 @@
     "start:electron": "wait-on tcp:4200 && electron .",
     "start:angular": "ng serve",
     "build": "ng build && electron-builder",
+    "build:angular": "ng build",
     "electron": "ng build && electron ."
   },
   "private": true,
